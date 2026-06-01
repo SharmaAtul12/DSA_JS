@@ -1,5 +1,5 @@
 function fun(num) {
-    if (num === 0) {
+    if (num < 1) {
         return;
     }
     console.log(num);
