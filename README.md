@@ -1,0 +1,176 @@
+# DSA Journey in JavaScript
+
+This repository documents my step-by-step Data Structures and Algorithms (DSA) journey using JavaScript.
+
+I have completed core practice in **Arrays**, moved through **Recursion**, strengthened fundamentals with **Searching and Sorting**, and now reached **Linked List** implementation and design. I will continue building this repo as I progress into deeper DSA topics.
+
+---
+
+## Journey Roadmap (Current Progress)
+
+- [x] Arrays
+- [x] Recursion
+- [x] Searching and Sorting
+- [x] Linked List (started)
+- [ ] Stack
+- [ ] Queue
+- [ ] Hashing
+- [ ] Trees (Binary Tree / BST)
+- [ ] Heap / Priority Queue
+- [ ] Graphs
+- [ ] Dynamic Programming
+- [ ] Advanced Interview Patterns
+
+---
+
+## Repository Structure
+
+```text
+00-Interview-Questions/
+01-arrays/
+02-Recursion/
+03-Searching-and-Sorting/
+04-Linked-List/
+```
+
+---
+
+## Phase 1: Arrays
+
+Folder: `01-arrays/`
+
+This phase focused on building confidence with indexing, in-place updates, two-pointer style thinking, and basic bit-manipulation exposure.
+
+Problems solved:
+
+- `01-leetcode26.js` - Remove Duplicates from Sorted Array
+- `02-leetcode27.js` - Remove Element
+- `03-leetcode344.js` - Reverse String
+- `04-leetcode123.js` - Best Time to Buy and Sell Stock III
+- `05-leetcode88.js` - Merge Sorted Array
+- `06-leetcode283.js` - Move Zeroes
+- `07-leetcode485.js` - Max Consecutive Ones
+- `08-leetcode268.js` - Missing Number
+- `09-leetcode136.js` - Single Number
+
+### Key learnings from Arrays
+
+- In-place array transformations
+- Two-pointer and scan-based solutions
+- Frequency/bitwise style problem solving
+- Time-space tradeoff awareness
+
+---
+
+## Phase 2: Recursion
+
+Folder: `02-Recursion/`
+
+This phase established recursive thinking with base case design, recursive calls, and reduction of problems into smaller subproblems.
+
+Problems solved:
+
+- `01-basicRecursion.js`
+- `02-one-To-n-Print.js`
+- `03-sum-of-n.js`
+- `04-sum-of-element-array.js`
+- `05-sum-of-odd-element.js`
+- `06-factorial.js`
+- `07-leetcode231.js` - Power of Two
+- `08-leetcode509.js` - Fibonacci Number
+
+### Key learnings from Recursion
+
+- Base condition clarity
+- Recursive call structure
+- Backtracking of call stack
+- Converting iterative thought into recursive flow
+
+---
+
+## Phase 3: Searching and Sorting
+
+Folder: `03-Searching-and-Sorting/`
+
+This phase focused on fundamentals that are used in both interviews and real-world optimization: searching patterns and sorting mechanics.
+
+Problems solved:
+
+- `01-linearSearch.js`
+- `02-binarySearch(leetcode-704).js`
+- `03-bubbleSort.js`
+- `04-selectionSort.js`
+- `05-insertionSort.js`
+- `06-mergeSort(leetcode912).js`
+
+### Key learnings from Searching and Sorting
+
+- Difference between linear and logarithmic search
+- Stability and behavior of elementary sorting algorithms
+- Divide-and-conquer with merge sort
+- Practical complexity comparison across approaches
+
+---
+
+## Phase 4: Linked List (Current Stage)
+
+Folder: `04-Linked-List/`
+
+Current file:
+
+- `design-linkedlist-(leetcode-707).js`
+
+I have now reached linked list design and operations. This marks a transition from index-based structures (arrays) to pointer/reference-based data structures.
+
+### Focus areas right now
+
+- Node design and memory links
+- Traversal and indexing simulation
+- Insert/delete at head, tail, and middle
+- Handling edge cases cleanly
+
+---
+
+## Interview Questions Section
+
+Folder: `00-Interview-Questions/`
+
+- `01-mergeIntervals.js`
+
+This section tracks pattern-based interview questions solved outside the strict topic sequence.
+
+---
+
+## Why This Repository Exists
+
+- To track progress with consistency
+- To build strong DSA fundamentals before advanced topics
+- To keep solutions organized topic-by-topic
+- To maintain a revision-friendly personal knowledge base
+
+---
+
+## What’s Next
+
+From here, I will continue after Linked List with:
+
+1. Stack and Queue foundations
+2. Hashing and map/set based patterns
+3. Trees and traversal strategies
+4. Graph fundamentals (BFS/DFS)
+5. Dynamic Programming patterns
+6. Advanced interview-level mixed problems
+
+---
+
+## Long-Term Goal
+
+To become interview-ready with strong problem-solving fundamentals, clean implementation skills, and confidence in explaining time and space complexity for every approach.
+
+---
+
+## Notes
+
+- Language used: **JavaScript**
+- This repository is actively updated as I progress.
+- I am currently in the **Linked List** phase and continuing forward.
