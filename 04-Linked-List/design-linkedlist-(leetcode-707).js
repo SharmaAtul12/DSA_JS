@@ -28,6 +28,7 @@ MyLinkedList.prototype.get = function (index) {
 /** 
  * @param {number} val
  * @return {void}
+ * - Adding the new node at the beginning of the list and making it the new head.
  */
 MyLinkedList.prototype.addAtHead = function (val) {
     let newNode = new Node(val);
@@ -39,6 +40,7 @@ MyLinkedList.prototype.addAtHead = function (val) {
 /** 
  * @param {number} val
  * @return {void}
+ * - Adding the new node at the end of the list.
  */
 MyLinkedList.prototype.addAtTail = function (val) {
     let newNode = new Node(val);
@@ -60,6 +62,7 @@ MyLinkedList.prototype.addAtTail = function (val) {
  * @param {number} index 
  * @param {number} val
  * @return {void}
+ * - Adding the new node at the specified index In the Linked List
  */
 MyLinkedList.prototype.addAtIndex = function (index, val) {
     if(index < 0 || index > this.size) return;
@@ -88,6 +91,7 @@ MyLinkedList.prototype.addAtIndex = function (index, val) {
 /** 
  * @param {number} index
  * @return {void}
+ * - Deleting the node at the specified index in the Linked List
  */
 MyLinkedList.prototype.deleteAtIndex = function (index) {
     if(index < 0 || index >= this.size) return;
