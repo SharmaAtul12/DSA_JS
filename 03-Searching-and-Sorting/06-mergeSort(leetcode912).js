@@ -2,6 +2,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
+// This is the main function which will be called to sort the array using merge sort algorithm
 var sortArray = function(nums) {
     if(nums.length <= 1) return nums;
 
@@ -12,6 +13,7 @@ var sortArray = function(nums) {
     return merge(left,right);
 };
 
+// Merge Two Sorted Array into One Sorted Array and return it
 function merge(left,right) {
     let result = [];
     let i = 0;
