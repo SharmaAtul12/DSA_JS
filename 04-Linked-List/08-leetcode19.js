@@ -35,3 +35,28 @@ var removeNthFromEnd = function(head, n) {
     return sentinelNode.next;
 };
 
+// Approach 2 => Using Two Pointers
+
+var removeNthFromEnd = function(head, n) {
+    let sentinelNode = new ListNode();
+    sentinelNode.next = head;
+
+    let second = sentinelNode;
+    let first = sentinelNode;
+
+    // Moving the first Pointer n step ahead
+    for(let i = 0; i < n ; i++) {
+        first = first.next;
+    };
+
+    // Move Both the pointers ahead until first reaches the last element 
+    while(first.next) {
+        second = second.next;
+        first = first.next;
+    }
+
+    // Just Delete second.next
+    second.next = second.next.next;
+
+    return sentinelNode.next;
+};
