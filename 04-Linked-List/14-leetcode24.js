@@ -1,3 +1,5 @@
+//! Approach: Iterative
+
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
@@ -31,4 +33,18 @@ var swapPairs = function(head) {
 
     return dummy.next;
 
+};
+
+//! Approach: Recursive
+
+var swapPairs = function(head) {
+    // Base Condition 
+    if(!head || !head.next) return head;
+    
+    let left = head;
+    let right = head.next;
+
+    left.next = swapPairs(right.next);
+    right.next = left;
+    return right;
 };
