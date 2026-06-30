@@ -11,7 +11,7 @@ I have completed core practice in **Arrays**, moved through **Recursion**, stren
 - [x] Arrays
 - [x] Recursion
 - [x] Searching and Sorting
-- [x] Linked List (started)
+- [x] Linked List
 - [ ] Stack
 - [ ] Queue
 - [ ] Hashing
@@ -116,17 +116,32 @@ Problems solved:
 
 Folder: `04-Linked-List/`
 
-Current file:
+This phase now covers core linked-list design, traversal, reversal, cycle detection, merging, deletion, and pointer-based manipulation. It marks the transition from index-based structures (arrays) to pointer/reference-based data structures.
 
-- `design-linkedlist-(leetcode-707).js`
+Problems solved:
 
-I have now reached linked list design and operations. This marks a transition from index-based structures (arrays) to pointer/reference-based data structures.
+- `01-design-linkedlist-(leetcode-707).js` - Design Linked List
+- `02-leetcode876.js` - Middle of the Linked List
+- `03-leetcode206.js` - Reverse Linked List
+- `04-leetcode141.js` - Linked List Cycle
+- `05-leetcode234.js` - Palindrome Linked List
+- `06-leetcode160.js` - Intersection of Two Linked Lists
+- `07-leetcode203.js` - Remove Linked List Elements
+- `08-leetcode19.js` - Remove Nth Node From End of List
+- `09-leetcode83.js` - Remove Duplicates from Sorted List
+- `10-leetcode328.js` - Odd Even Linked List
+- `11-leetcode02.js` - Add Two Numbers
+- `12-leetcode21.js` - Merge Two Sorted Lists
+- `13-leetcode61.js` - Rotate List
+- `14-leetcode24.js` - Swap Nodes in Pairs
 
 ### Focus areas right now
 
 - Node design and memory links
 - Traversal and indexing simulation
 - Insert/delete at head, tail, and middle
+- Fast/slow pointer patterns
+- List reversal and structural rewiring
 - Handling edge cases cleanly
 
 ---
