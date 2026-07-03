@@ -45,3 +45,25 @@ var isPalindrome = function(s) {
     return revString === filteredString
 };
 
+//! Approach 02 : Two Pointer : TC : O(n) SC : O(1)
+
+var isPalindrome = function (s) {
+    s = s.toLowerCase()
+    let x = 0;
+    let y = s.length - 1;
+
+    while (x < y) {
+        if (!s[x].match(/[a-z0-9]/)) {
+            x++;
+        } else if (!s[y].match(/[a-z0-9]/)) {
+            y--
+        } else if(s[x] === s[y]) {
+            x++;
+            y--;
+        } else {
+            return false
+        }
+
+    }
+    return true
+};
