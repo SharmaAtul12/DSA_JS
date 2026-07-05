@@ -41,3 +41,57 @@ var groupAnagrams = function (strs) {
 };
 
 
+//! Approach 2 : Using Diff form of key generation . TC : o(n*m) and SC : O(n*m) where n is the number of strings and m is the maximum length of a string.
+
+/**
+ * @param {string[]} strs
+ * @return {string[][]}
+ */
+
+// Approach 1 : 
+
+// var groupAnagrams = function (strs) {
+//     let map = {};
+
+//     for (let i = 0; i < strs.length; i++) {
+//         let sortedStr = strs[i].split("").sort().join("")
+
+//         if (!map[sortedStr]) {
+//             map[sortedStr] = [strs[i]]
+//         } else {
+//             map[sortedStr].push(strs[i])
+//         }
+//     }
+//     return Object.values(map)
+// };
+
+// Approach 2 : 
+
+var groupAnagrams = function (strs) {
+    let map = {}
+    for(let i = 0; i < strs.length; i++) {
+        // Creating the Key Logic 
+        let freqArr = Array(26).fill(0);
+        let s = strs[i];
+
+        // Filling the Frequency of each letter in the array 
+        for(let j = 0; j < s.length; j++) {
+            let index = s[j].charCodeAt() - 'a'.charCodeAt();
+            freqArr[index]++;
+        }
+
+        let key = "";
+        // Creating the key like "a0b0c1d2......"
+        for(let k = 0; k < 26; k++) {
+            key = key + String.fromCharCode(97 + k) + freqArr[k]
+        }
+
+        // Filling the map
+        if(!map[key]) {
+            map[key] = [s]
+        } else {
+            map[key].push(s)
+        }
+    }
+    return Object.values(map);
+};
