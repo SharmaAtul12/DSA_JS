@@ -2,7 +2,7 @@
 
 This repository documents my step-by-step Data Structures and Algorithms (DSA) journey using JavaScript.
 
-I have completed core practice in **Arrays**, moved through **Recursion**, strengthened fundamentals with **Searching and Sorting**, and now reached **Linked List** implementation and design. I will continue building this repo as I progress into deeper DSA topics.
+I have completed core practice in **Arrays**, moved through **Recursion**, strengthened fundamentals with **Searching and Sorting**, worked through **Linked List** implementation and design, and have now moved into **Strings** practice. I will continue building this repo as I progress into deeper DSA topics.
 
 ---
 
@@ -12,6 +12,7 @@ I have completed core practice in **Arrays**, moved through **Recursion**, stren
 - [x] Recursion
 - [x] Searching and Sorting
 - [x] Linked List
+- [x] Strings
 - [ ] Stack
 - [ ] Queue
 - [ ] Hashing
@@ -31,6 +32,7 @@ I have completed core practice in **Arrays**, moved through **Recursion**, stren
 02-Recursion/
 03-Searching-and-Sorting/
 04-Linked-List/
+05-Strings/
 ```
 
 ---
@@ -112,7 +114,7 @@ Problems solved:
 
 ---
 
-## Phase 4: Linked List (Current Stage)
+## Phase 4: Linked List
 
 Folder: `04-Linked-List/`
 
@@ -146,6 +148,37 @@ Problems solved:
 
 ---
 
+## Phase 5: Strings (Current Stage)
+
+Folder: `05-Strings/`
+
+This phase focuses on string traversal, filtering, matching, frequency counting, prefix handling, and anagram-style reasoning.
+
+Problems solved:
+
+- `01-leetcode58.js` - Length of Last Word
+- `02-leetcode2942.js` - Find Words Containing Character
+- `03-leetcode771.js` - Jewels and Stones
+- `04-leetcode3541.js` - Max Frequency Sum
+- `05-leetcode1221.js` - Split a String in Balanced Strings
+- `06-leetcode541.js` - Reverse String II
+- `07-leetcode125.js` - Valid Palindrome
+- `08-leetcode1903.js` - Largest Odd Number in String
+- `09-leetcode14.js` - Longest Common Prefix
+- `10-leetcode242.js` - Valid Anagram
+- `11-leetcode205.js` - Isomorphic Strings
+- `12-leetcode49.js` - Group Anagrams
+
+### Focus areas right now
+
+- Two-pointer string scanning
+- Character filtering and normalization
+- Prefix and substring reasoning
+- Frequency counting with maps and sets
+- Grouping and matching patterns
+
+---
+
 ## Interview Questions Section
 
 Folder: `00-Interview-Questions/`
@@ -167,7 +200,7 @@ This section tracks pattern-based interview questions solved outside the strict 
 
 ## What’s Next
 
-From here, I will continue after Linked List with:
+From here, I will continue after Strings with:
 
 1. Stack and Queue foundations
 2. Hashing and map/set based patterns
@@ -188,4 +221,4 @@ To become interview-ready with strong problem-solving fundamentals, clean implem
 
 - Language used: **JavaScript**
 - This repository is actively updated as I progress.
-- I am currently in the **Linked List** phase and continuing forward.
+- I am currently in the **Strings** phase and continuing forward.
