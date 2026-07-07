@@ -48,7 +48,7 @@ Problems solved:
 - `01-leetcode26.js` - Remove Duplicates from Sorted Array
 - `02-leetcode27.js` - Remove Element
 - `03-leetcode344.js` - Reverse String
-- `04-leetcode123.js` - Best Time to Buy and Sell Stock III
+- `04-leetcode121.js` - Best Time to Buy and Sell Stock
 - `05-leetcode88.js` - Merge Sorted Array
 - `06-leetcode283.js` - Move Zeroes
 - `07-leetcode485.js` - Max Consecutive Ones
