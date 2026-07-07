@@ -13,3 +13,20 @@ var missingNumber = function(nums) {
 
     return totalNeededSum - givenEleSum;
 };
+
+//! Second approach : Using two for loops
+
+var missingNumber = function(nums) {
+    let givenSum = 0;
+    let neededSum = 0;
+
+    for(let i = 0; i <= nums.length; i++) {
+        neededSum = neededSum + i
+    }
+
+    for(let i = 0; i < nums.length; i++) {
+        givenSum = givenSum + nums[i]
+    }
+
+    return neededSum - givenSum
+};
