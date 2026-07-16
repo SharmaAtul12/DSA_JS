@@ -2,7 +2,7 @@
 
 This repository documents my step-by-step Data Structures and Algorithms (DSA) journey using JavaScript.
 
-I have completed core practice in **Arrays**, moved through **Recursion**, strengthened fundamentals with **Searching and Sorting**, worked through **Linked List** implementation and design, and have now moved into **Strings** practice. I will continue building this repo as I progress into deeper DSA topics.
+I have completed core practice in **Arrays**, moved through **Recursion**, strengthened fundamentals with **Searching and Sorting**, worked through **Linked List** implementation and design, and have now moved through **Strings** into **Stack and Queue** practice. I will continue building this repo as I progress into deeper DSA topics.
 
 ---
 
@@ -13,8 +13,8 @@ I have completed core practice in **Arrays**, moved through **Recursion**, stren
 - [x] Searching and Sorting
 - [x] Linked List
 - [x] Strings
-- [ ] Stack
-- [ ] Queue
+- [x] Stack
+- [x] Queue
 - [ ] Hashing
 - [ ] Trees (Binary Tree / BST)
 - [ ] Heap / Priority Queue
@@ -33,6 +33,7 @@ I have completed core practice in **Arrays**, moved through **Recursion**, stren
 03-Searching-and-Sorting/
 04-Linked-List/
 05-Strings/
+06-Stack-and-Queue/
 ```
 
 ---
@@ -179,6 +180,36 @@ Problems solved:
 
 ---
 
+## Phase 6: Stack and Queue
+
+Folder: `06-Stack-and-Queue/`
+
+This phase focuses on stack and queue behavior, monotonic patterns, parentheses validation, and classic stack-based problem solving.
+
+Problems solved:
+
+- `01-playing.js`
+- `02-leetcode225.js` - Implement Stack using Queues
+- `03-leetcode232.js` - Implement Queue using Stacks
+- `04-leetcode20.js` - Valid Parentheses
+- `05-leetcode155.js` - Min Stack
+- `06-leetcode1021.js` - Remove Outermost Parentheses
+- `07-leetcode150.js` - Evaluate Reverse Polish Notation
+- `08-leetcode496.js` - Next Greater Element I
+- `09-leetcode739.js` - Daily Temperatures
+- `10-leetcode503.js` - Next Greater Element II
+- `11-leetcode994.js` - Rotting Oranges
+
+### Focus areas from Stack and Queue
+
+- LIFO and FIFO behavior
+- Stack simulation with arrays and queues
+- Parentheses and expression parsing
+- Monotonic stack patterns
+- Breadth-first style queue processing
+
+---
+
 ## Interview Questions Section
 
 Folder: `00-Interview-Questions/`
@@ -202,12 +233,11 @@ This section tracks pattern-based interview questions solved outside the strict 
 
 From here, I will continue after Strings with:
 
-1. Stack and Queue foundations
-2. Hashing and map/set based patterns
-3. Trees and traversal strategies
-4. Graph fundamentals (BFS/DFS)
-5. Dynamic Programming patterns
-6. Advanced interview-level mixed problems
+1. Hashing and map/set based patterns
+2. Trees and traversal strategies
+3. Graph fundamentals (BFS/DFS)
+4. Dynamic Programming patterns
+5. Advanced interview-level mixed problems
 
 ---
 
@@ -221,4 +251,4 @@ To become interview-ready with strong problem-solving fundamentals, clean implem
 
 - Language used: **JavaScript**
 - This repository is actively updated as I progress.
-- I am currently in the **Strings** phase and continuing forward.
+- I am currently in the **Stack and Queue** phase and continuing forward.
