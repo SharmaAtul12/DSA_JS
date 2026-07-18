@@ -7,7 +7,7 @@
 var dailyTemperatures = function (arr) {
     let stack = [];
 
-    // For Last Element
+    // This is for Last Element 
     let n = arr.length;
     let ans = Array(n).fill(0);
     stack.push(n - 1);
