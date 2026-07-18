@@ -16,6 +16,7 @@ var nextGreaterElements = function (nums) {
     let arr = [...nums, ...nums];
     let stack = [];
 
+    // For the first element of the array we can push it to the stack because there is no element before it.
     let n = arr.length;
     let ans = Array(n).fill(-1)
     stack.push(arr[n - 1]);
