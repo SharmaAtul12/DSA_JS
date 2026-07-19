@@ -2,7 +2,7 @@
 
 This repository documents my step-by-step Data Structures and Algorithms (DSA) journey using JavaScript.
 
-I have completed core practice in **Arrays**, moved through **Recursion**, strengthened fundamentals with **Searching and Sorting**, worked through **Linked List** implementation and design, and have now moved through **Strings** into **Stack and Queue** practice. I will continue building this repo as I progress into deeper DSA topics.
+I have completed core practice in **Arrays**, moved through **Recursion**, strengthened fundamentals with **Searching and Sorting**, worked through **Linked List** implementation and design, and have now moved through **Strings** into **Stack and Queue** practice. I also keep milestone snapshots in the **Milestones** folder as I continue building this repo.
 
 ---
 
@@ -34,6 +34,7 @@ I have completed core practice in **Arrays**, moved through **Recursion**, stren
 04-Linked-List/
 05-Strings/
 06-Stack-and-Queue/
+Milestones/
 ```
 
 ---
@@ -149,7 +150,7 @@ Problems solved:
 
 ---
 
-## Phase 5: Strings (Current Stage)
+## Phase 5: Strings
 
 Folder: `05-Strings/`
 
@@ -180,7 +181,7 @@ Problems solved:
 
 ---
 
-## Phase 6: Stack and Queue
+## Phase 6: Stack and Queue (Current Stage)
 
 Folder: `06-Stack-and-Queue/`
 
@@ -207,6 +208,18 @@ Problems solved:
 - Parentheses and expression parsing
 - Monotonic stack patterns
 - Breadth-first style queue processing
+
+---
+
+## Self Achievements
+
+Folder: `Milestones/`
+
+This folder stores milestone visuals and personal progress snapshots for the repository.
+
+Current milestone:
+
+- `leetcode50-(19 July 2026).png` - celebrates reaching 50 solved problems
 
 ---
 
@@ -252,3 +265,4 @@ To become interview-ready with strong problem-solving fundamentals, clean implem
 - Language used: **JavaScript**
 - This repository is actively updated as I progress.
 - I am currently in the **Stack and Queue** phase and continuing forward.
+- A milestone snapshot for the 50-problem achievement is stored in the **Milestones** folder.
