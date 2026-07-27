@@ -201,6 +201,7 @@ Problems solved:
 - `09-leetcode739.js` - Daily Temperatures
 - `10-leetcode503.js` - Next Greater Element II
 - `11-leetcode994.js` - Rotting Oranges
+- `12-leetcode2390.js` - Removing Stars From a String
 
 ### Focus areas from Stack and Queue
 
