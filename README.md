@@ -11,6 +11,7 @@ I have completed core practice in **Arrays**, moved through **Recursion**, stren
 - [x] Arrays
 - [x] Recursion
 - [x] Searching and Sorting
+- [x] Binary Search Algorithm
 - [x] Linked List
 - [x] Strings
 - [x] Stack
@@ -208,6 +209,34 @@ Problems solved:
 - Parentheses and expression parsing
 - Monotonic stack patterns
 - Breadth-first style queue processing
+
+---
+
+## Phase 7: Binary Search Algorithm
+
+Folder: `07-Binary-Search-Algorithm/`
+
+This phase focuses on binary search patterns and variations including lower/upper bound, rotated arrays, peak-finding, and predicate-based searches.
+
+Problems solved:
+
+- `01-leetcode69.js` - Sqrt(x)
+- `02-leetcode374.js` - Guess Number Higher or Lower
+- `03-leetcode33.js` - Search in Rotated Sorted Array
+- `04-leetcode278.js` - First Bad Version
+- `05-leetcode162.js` - Find Peak Element
+- `06-leetcode153.js` - Find Minimum in Rotated Sorted Array
+- `07-leetcode34.js` - Find First and Last Position of Element in Sorted Array
+- `08-leetcode852.js` - Peak Index in a Mountain Array
+- `09-leetcode540.js` - Single Element in a Sorted Array
+- `10-leetcode658.js` - Find K Closest Elements
+
+### Key learnings from Binary Search Algorithm
+
+- Template-based binary search patterns (left/right mid)
+- Adapting binary search for rotated arrays and predicate-based searches
+- Boundary and off-by-one handling
+- Using binary search for optimization problems
 
 ---
 
