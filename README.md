@@ -2,7 +2,7 @@
 
 This repository documents my step-by-step Data Structures and Algorithms (DSA) journey using JavaScript.
 
-I have completed core practice in **Arrays**, moved through **Recursion**, strengthened fundamentals with **Searching and Sorting**, worked through **Linked List** implementation and design, and have now moved through **Strings** into **Stack and Queue** practice. I also keep milestone snapshots in the **Milestones** folder as I continue building this repo.
+I have completed core practice in **Arrays**, moved through **Recursion**, strengthened fundamentals with **Searching and Sorting**, worked through **Linked List** implementation and design, and progressed through **Strings**, **Stack and Queue**, and several other patterns. I also keep milestone snapshots in the **Milestones** folder as I continue building this repo.
 
 ---
 
@@ -23,6 +23,9 @@ I have completed core practice in **Arrays**, moved through **Recursion**, stren
 - [ ] Dynamic Programming
 - [ ] Advanced Interview Patterns
 
+- [x] Binary Search Algorithm
+- [x] Two-Pointers / Sliding Window
+
 ---
 
 ## Repository Structure
@@ -35,8 +38,19 @@ I have completed core practice in **Arrays**, moved through **Recursion**, stren
 04-Linked-List/
 05-Strings/
 06-Stack-and-Queue/
+07-Binary-Search-Algorithm/
+08-Two-Pointers-&-Sliding-Window/
+Extras/
 Milestones/
 ```
+
+---
+
+## Recent updates
+
+- Added alternate approaches to several problems (see file headers/comments for details).
+- New problems added under `08-Two-Pointers-&-Sliding-Window` and `Extras`.
+- Additional interview questions added to `00-Interview-Questions`.
 
 ---
 
@@ -258,6 +272,9 @@ Current milestone:
 Folder: `00-Interview-Questions/`
 
 - `01-mergeIntervals.js`
+- `02-divisorGame(leetcode-1025).js`
+
+Some interview files have been expanded with alternate approaches and additional comments to explain trade-offs.
 
 This section tracks pattern-based interview questions solved outside the strict topic sequence.
 
@@ -294,5 +311,5 @@ To become interview-ready with strong problem-solving fundamentals, clean implem
 
 - Language used: **JavaScript**
 - This repository is actively updated as I progress.
-- I am currently in the **Stack and Queue** phase and continuing forward.
+- Completed the **Stack and Queue** phase and progressing through **Binary Search** and **Two-Pointers / Sliding Window**.
 - A milestone snapshot for the 50-problem achievement is stored in the **Milestones** folder.
