@@ -49,9 +49,12 @@ var isWindowValid = function (map, k) {
 
 
 var characterReplacement = function (s, k) {
+    //! 0 Index = A, 1 Index = B, 2 Index = C and so on... and ye sabhi fix rhenge, so we can use array instead of hashmap to store the count of each character in the window.
     let map = Array(26).fill(0)
+
     //! Phle Index Ka Character code nikalenge, fir usko 65 se minus karenge, taki A ka index 0 ho jaye, B ka index 1 ho jaye, C ka index 2 ho jaye and so on...
     //! Ex : s = "ABAB", s.charCodeAt(0) = 65, 65 - 65 = 0, so map[0] = 1
+
     map[s.charCodeAt(0) - 65] = 1;
     let i = j = 0;
     let maxWindow = 0;
