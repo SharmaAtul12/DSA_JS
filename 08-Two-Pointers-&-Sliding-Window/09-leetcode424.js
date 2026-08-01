@@ -45,4 +45,41 @@ var isWindowValid = function (map, k) {
     return (finalCount <= k)
 }
 
+//! Using sliding window technique to find the longest substring with same letters after k replacements ---> With Array
 
+
+var characterReplacement = function (s, k) {
+    let map = Array(26).fill(0)
+    //! Phle Index Ka Character code nikalenge, fir usko 65 se minus karenge, taki A ka index 0 ho jaye, B ka index 1 ho jaye, C ka index 2 ho jaye and so on...
+    //! Ex : s = "ABAB", s.charCodeAt(0) = 65, 65 - 65 = 0, so map[0] = 1
+    map[s.charCodeAt(0) - 65] = 1;
+    let i = j = 0;
+    let maxWindow = 0;
+
+    while (j < s.length) {
+        if (isWindowValid(map, k)) {
+            maxWindow = Math.max(maxWindow, j - i + 1)
+            j++;
+            ++map[s.charCodeAt(j) - 65]; //! Incrementing the count of the character at index j in the map
+        }
+        else {
+            --map[s.charCodeAt(i) - 65]; //! Decrementing the count of the character at index i in the map
+            i++;
+        }
+    }
+
+    return maxWindow
+};
+
+var isWindowValid = function (map, k) {
+    let totalCount = 0;
+    let maxCount = 0;
+
+    for (let i = 0; i < 26; i++) {
+        totalCount = totalCount + map[i];
+        maxCount = Math.max(maxCount, map[i])
+    }
+
+    let finalCount = totalCount - maxCount;
+    return (finalCount <= k)
+}
