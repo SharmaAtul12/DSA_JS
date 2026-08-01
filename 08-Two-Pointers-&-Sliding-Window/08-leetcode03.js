@@ -22,3 +22,23 @@ var lengthOfLongestSubstring = function (arr) {
     return maxWindowSize
 };
 
+//! Improved version of the above code
+
+var lengthOfLongestSubstring = function (arr) {
+    let map = {};
+    let i = 0;
+    let maxWindowSize = 0;
+
+    for (let j = 0; j < arr.length; j++) {
+        if (map[arr[j]] != undefined && map[arr[j]] >= i) {
+            i = map[arr[j]] + 1;
+        }
+        
+        map[arr[j]] = j
+
+        let currWindowSize = (j-i) + 1
+        maxWindowSize = Math.max(currWindowSize, maxWindowSize)
+    }
+    
+    return maxWindowSize
+};
