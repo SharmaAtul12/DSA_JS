@@ -2,7 +2,7 @@
 
 This repository documents my step-by-step Data Structures and Algorithms (DSA) journey using JavaScript.
 
-I have completed core practice in **Arrays**, moved through **Recursion**, strengthened fundamentals with **Searching and Sorting**, worked through **Linked List** implementation and design, and progressed through **Strings**, **Stack and Queue**, and several other patterns. I also keep milestone snapshots in the **Milestones** folder as I continue building this repo.
+I have completed core practice in **Arrays**, moved through **Recursion**, strengthened fundamentals with **Searching and Sorting**, worked through **Linked List** implementation and design, and progressed through **Strings**, **Stack and Queue**, **Hashing**, and several other patterns. Hashing is also reflected across other modules through frequency-based and lookup-oriented problems. I also keep milestone snapshots in the **Milestones** folder as I continue building this repo.
 
 ---
 
@@ -16,13 +16,12 @@ I have completed core practice in **Arrays**, moved through **Recursion**, stren
 - [x] Strings
 - [x] Stack
 - [x] Queue
-- [ ] Hashing
+- [x] Hashing
 - [ ] Trees (Binary Tree / BST)
 - [ ] Heap / Priority Queue
 - [ ] Graphs
 - [ ] Dynamic Programming
-- [ ] Advanced Interview Patterns
-
+- [ ] Advanced Strings 
 - [x] Binary Search Algorithm
 - [x] Two-Pointers / Sliding Window
 
@@ -255,6 +254,35 @@ Problems solved:
 
 ---
 
+## Phase 8: Two Pointers and Sliding Window
+
+Folder: `08-Two-Pointers-&-Sliding-Window/`
+
+This phase focused on two-pointer movement, window expansion/shrinking, and pattern recognition for subarray and substring problems. It built on earlier array and string work by introducing more efficient linear-time solutions.
+
+Problems solved:
+
+- `01-leetcode01.js` - Two Sum
+- `02-leetcode167.js` - Two Sum II - Input Array Is Sorted
+- `03-leetcode392.js` - Is Subsequence
+- `04-leetcode28.js` - Find the Index of the First Occurrence in a String
+- `05-leetcode11.js` - Container With Most Water
+- `06-leetcode15.js` - 3Sum
+- `07-leetcode42.js` - Trapping Rain Water
+- `08-leetcode03.js` - Longest Substring Without Repeating Characters
+- `09-leetcode424.js` - Longest Repeating Character Replacement
+- `10-leetcode567.js` - Permutation in String
+- `11-leetcode239.js` - Sliding Window Maximum
+
+### Key learnings from Two Pointers and Sliding Window
+
+- Using two pointers to reduce nested loops
+- Expanding and shrinking windows efficiently
+- Tracking boundaries and invariants in subarrays
+- Recognizing when a sliding window is the right approach
+
+---
+
 ## Self Achievements
 
 Folder: `Milestones/`
@@ -311,5 +339,5 @@ To become interview-ready with strong problem-solving fundamentals, clean implem
 
 - Language used: **JavaScript**
 - This repository is actively updated as I progress.
-- Completed the **Stack and Queue** phase and progressing through **Binary Search** and **Two-Pointers / Sliding Window**.
+- Completed the **Stack and Queue**, **Binary Search**, and **Two-Pointers / Sliding Window** phases.
 - A milestone snapshot for the 50-problem achievement is stored in the **Milestones** folder.
