@@ -46,3 +46,12 @@ var reverseWords = function (s) {
     return finalRevStr
 };
 
+
+//! With Using BuiltIn methods : -> 
+
+var reverseWords = function (s) {
+    let arr = s.trim().split(/\s+/);
+    return arr.reverse().join(" ");
+};
+
+
