@@ -2,7 +2,7 @@
 
 This repository documents my step-by-step Data Structures and Algorithms (DSA) journey using JavaScript.
 
-I have completed core practice in **Arrays**, moved through **Recursion**, strengthened fundamentals with **Searching and Sorting**, worked through **Linked List** implementation and design, and progressed through **Strings**, **Stack and Queue**, **Hashing**, and several other patterns. Hashing is also reflected across other modules through frequency-based and lookup-oriented problems. I also keep milestone snapshots in the **Milestones** folder as I continue building this repo.
+I have completed core practice in **Arrays**, moved through **Recursion**, strengthened fundamentals with **Searching and Sorting**, worked through **Linked List** implementation and design, and progressed through **Strings**, **Strings Advanced**, **Stack and Queue**, **Hashing**, and several other patterns. Hashing is also reflected across other modules through frequency-based and lookup-oriented problems. I also keep milestone snapshots in the **Milestones** folder as I continue building this repo.
 
 ---
 
@@ -14,6 +14,7 @@ I have completed core practice in **Arrays**, moved through **Recursion**, stren
 - [x] Binary Search Algorithm
 - [x] Linked List
 - [x] Strings
+- [x] Strings Advanced
 - [x] Stack
 - [x] Queue
 - [x] Hashing
@@ -21,8 +22,6 @@ I have completed core practice in **Arrays**, moved through **Recursion**, stren
 - [ ] Heap / Priority Queue
 - [ ] Graphs
 - [ ] Dynamic Programming
-- [ ] Advanced Strings 
-- [x] Binary Search Algorithm
 - [x] Two-Pointers / Sliding Window
 
 ---
@@ -36,6 +35,7 @@ I have completed core practice in **Arrays**, moved through **Recursion**, stren
 03-Searching-and-Sorting/
 04-Linked-List/
 05-Strings/
+09-Strings-Advanced/
 06-Stack-and-Queue/
 07-Binary-Search-Algorithm/
 08-Two-Pointers-&-Sliding-Window/
@@ -48,7 +48,7 @@ Milestones/
 ## Recent updates
 
 - Added alternate approaches to several problems (see file headers/comments for details).
-- New problems added under `08-Two-Pointers-&-Sliding-Window` and `Extras`.
+- New problems added under `08-Two-Pointers-&-Sliding-Window`, `09-Strings-Advanced`, and `Extras`.
 - Additional interview questions added to `00-Interview-Questions`.
 
 ---
@@ -283,6 +283,31 @@ Problems solved:
 
 ---
 
+## Phase 9: Strings Advanced
+
+Folder: `09-Strings-Advanced/`
+
+This phase covers harder string manipulation problems that combine stack behavior, counting, encoding and decoding, greedy placement, and pattern reconstruction.
+
+Problems solved:
+
+- `01-leetcode921.js` - Minimum Add to Make Parentheses Valid
+- `02-leetcode151.js` - Reverse Words in a String
+- `03-leetcode1781.js` - Sum of Beauty of All Substrings
+- `04-leetcode394.js` - Decode String
+- `05-leetcode38.js` - Count and Say
+- `06-leetcode767.js` - Reorganize String
+- `07-leetcode686.js` - Repeated String Match
+
+### Key learnings from Strings Advanced
+
+- Stack-based decoding and bracket handling
+- Frequency tracking across substrings and characters
+- Greedy placement for valid string reconstruction
+- Repetition and pattern-matching strategies
+
+---
+
 ## Self Achievements
 
 Folder: `Milestones/`
@@ -305,6 +330,25 @@ Folder: `00-Interview-Questions/`
 Some interview files have been expanded with alternate approaches and additional comments to explain trade-offs.
 
 This section tracks pattern-based interview questions solved outside the strict topic sequence.
+
+---
+
+## Extras
+
+Folder: `Extras/`
+
+These are additional practice problems that do not sit inside the main numbered study path, but they are part of the current workspace and should stay listed here for completeness.
+
+Problems solved:
+
+- `01-leetcode-1464.js` - Maximum Product of Two Elements in an Array
+- `02-leetcode-961.js` - N-Repeated Element in Size 2N Array
+- `03-leetcode3731.js` - Find Missing Elements
+
+### Why these are listed separately
+
+- They are completed questions in the repo, but they do not belong to the main sequential module flow.
+- Keeping them here makes the README match the actual folder structure without mixing them into the core roadmap.
 
 ---
 
@@ -339,5 +383,5 @@ To become interview-ready with strong problem-solving fundamentals, clean implem
 
 - Language used: **JavaScript**
 - This repository is actively updated as I progress.
-- Completed the **Stack and Queue**, **Binary Search**, and **Two-Pointers / Sliding Window** phases.
+- Completed the **Stack and Queue**, **Binary Search**, **Two-Pointers / Sliding Window**, and **Strings Advanced** phases.
 - A milestone snapshot for the 50-problem achievement is stored in the **Milestones** folder.
