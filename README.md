@@ -305,6 +305,7 @@ Additional solved problems outside the main numbered path.
 | 04 | `04-leetcode1342.js` | Number of Steps to Reduce a Number to Zero |
 | 05 | `05-leetcode1281.js` | Subtract the Product and Sum of Digits of an Integer |
 | 06 | `06-leetcode55.js` | Jump Game |
+| 07 | `07-leetcode2169.js` | Count Operations to Obtain Zero |
 
 ---
 
