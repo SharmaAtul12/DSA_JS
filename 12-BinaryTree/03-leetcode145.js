@@ -48,3 +48,31 @@ var postorderTraversal = function (root) {
     return ans
 };
 
+//! Iterative Approach -> Using 1 Stack
+
+var postorderTraversal = function (root) {
+    let stack = [];
+    let ans = [];
+    let curr = root;
+    let lastProcessedEle;
+
+    while (stack.length || curr) {
+        while (curr) {
+            stack.push(curr);
+            curr = curr.left;
+        }
+
+        let peekNode = stack[stack.length - 1]
+
+        if (peekNode.right && peekNode.right !== lastProcessedEle) {
+            curr = peekNode.right
+        }
+        else {
+            ans.push(peekNode.val);
+            lastProcessedEle = stack.pop();
+        }
+    }
+    return ans;
+};
+
+
