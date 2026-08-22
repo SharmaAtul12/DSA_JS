@@ -13,7 +13,7 @@ This repository documents my step-by-step DSA learning path, from core fundament
 | Language | JavaScript |
 | Topic Modules | 12 |
 | Extra / Interview Sets | 3 |
-| Problems Solved | 100+ |
+| Problems Solved | 116 |
 | Latest Milestone | 🎯 100 Questions (15 Aug 2026) |
 
 ---
@@ -50,7 +50,8 @@ My progress milestones are tracked in the [`Milestones/`](Milestones/) folder.
 - [x] Arrays — Extra Practice
 - [x] Strings — Extra Practice
 - [x] Interview & Pattern Questions
-- [ ] Trees (Binary Tree / BST)
+- [x] Binary Tree
+- [ ] Binary Search Tree (BST)
 - [ ] Heap / Priority Queue
 - [ ] Graphs
 - [ ] Dynamic Programming
@@ -73,6 +74,7 @@ DSA_JS/
 ├── 09-Strings-Advanced/             # Advanced string problems (+ notes images)
 ├── 10-Arrays-Extra-Ques/            # Extra array practice
 ├── 11-Strings-Extra-Ques/           # Extra string practice
+├── 12-BinaryTree/                    # Binary tree traversal problems (+ flow notes)
 ├── Extras/                          # Miscellaneous solved problems
 ├── Milestones/                      # Milestone snapshots
 └── README.md
@@ -289,6 +291,19 @@ Folder: [`11-Strings-Extra-Ques/`](11-Strings-Extra-Ques/)
 | 02 | `02-leetcode3090.js` | Maximum Length Substring With Two Occurrences |
 | 03 | `03-leetcode387.js` | First Unique Character in a String |
 | 04 | `04-leetcode443.js` | String Compression |
+
+---
+
+### 🌳 12 · Binary Tree
+Folder: [`12-BinaryTree/`](12-BinaryTree/)
+
+| # | File | Problem |
+| --- | --- | --- |
+| 01 | `01-leetcode144.js` | Binary Tree Preorder Traversal |
+| 02 | `02-leetcode94.js` | Binary Tree Inorder Traversal |
+| 03 | `03-leetcode145.js` | Binary Tree Postorder Traversal |
+
+📝 Flow notes cover recursive and iterative traversal approaches.
 
 ---
 
