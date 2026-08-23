@@ -57,11 +57,13 @@ var postorderTraversal = function (root) {
     let lastProcessedEle;
 
     while (stack.length || curr) {
+        //! Go to the leftmost node and push all the nodes along the path to the stack
         while (curr) {
             stack.push(curr);
             curr = curr.left;
         }
 
+        //! Peek the top node of the stack without popping it  
         let peekNode = stack[stack.length - 1]
 
         if (peekNode.right && peekNode.right !== lastProcessedEle) {
