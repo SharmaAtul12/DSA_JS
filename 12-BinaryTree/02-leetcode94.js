@@ -17,6 +17,7 @@ var inorderTraversal = function(root) {
     var traversal = (curr) => {
         if(!curr) return;
 
+        //! Inorder Traversal -> Left -> Root -> Right
         traversal(curr.left);
         ans.push(curr.val);
         traversal(curr.right)
