@@ -41,6 +41,7 @@ var inorderTraversal = function(root) {
             curr = curr.left
         }
 
+        //! Pop the top node from the stack and process it
         curr = stack.pop();
         ans.push(curr.val);
         curr = curr.right;
