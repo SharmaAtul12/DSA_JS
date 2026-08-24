@@ -18,6 +18,7 @@ var preorderTraversal = function(root) {
     var traversal = (curr) => {
         if(!curr) return;
 
+        //! Preorder Traversal -> Root -> Left -> Right
         ans.push(curr.val);
         traversal(curr.left);
         traversal(curr.right)
