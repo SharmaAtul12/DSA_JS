@@ -36,6 +36,8 @@ var preorderTraversal = function(root) {
     let stack = [];
     stack.push(root);
 
+    //! In this approach, we are using stack to store the nodes and then pop them one by one and push their right and 
+    //! left children to the stack. This way we can traverse the tree in preorder fashion.
     while(stack.length) {
         let curr = stack.pop();
         ans.push(curr.val);
