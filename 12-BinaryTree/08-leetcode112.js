@@ -34,3 +34,19 @@ var hasPathSum = function (root, targetSum) {
 
     return traverse(root, 0)
 };
+
+//! Bottom Up Approach ->
+
+var hasPathSum = function (root, targetSum) {
+    if (!root) return false;
+
+    if (!root.left && !root.right) {
+        return root.val === targetSum
+    }
+
+    let leftSubTreeHasPathSum = hasPathSum(root.left, targetSum - root.val);
+    let rightSubTreeHasPathSum = hasPathSum(root.right, targetSum - root.val);
+
+    return leftSubTreeHasPathSum || rightSubTreeHasPathSum
+};
+
