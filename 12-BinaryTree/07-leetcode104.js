@@ -18,6 +18,7 @@ var maxDepth = function (root) {
     let maxLevel = 0;
 
     var traversal = (curr, level) => {
+      //! At Every Node, we will check if the current level is greater than the maxLevel, if yes then we will update the maxLevel
         maxLevel = Math.max(maxLevel,level)
         curr.left && traversal(curr.left, level+1);
         curr.right && traversal(curr.right, level+1)
@@ -25,4 +26,16 @@ var maxDepth = function (root) {
 
     traversal(root, level);
     return maxLevel+1;
+};
+
+//! Bottom - Up Approach ---------------->
+
+var maxDepth = function (root) {
+    if(!root) return 0;
+     
+    let leftSubtreeMaxDepth = maxDepth(root.left);
+    let rightSubtreeMaxDepth = maxDepth(root.right);
+
+    return 1 + Math.max(leftSubtreeMaxDepth,rightSubtreeMaxDepth)
+
 };
