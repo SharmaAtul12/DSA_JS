@@ -10,6 +10,8 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
+//! Way - 01
+
 var isBalanced = function (root) {
 
     let height = (curr) => {
@@ -33,4 +35,27 @@ var isBalanced = function (root) {
     let res = height(root)
     if(res === -1) return false;
     return true;
+};
+
+//! Way - 02 
+
+var isBalanced = function (root) {
+    let ans = true;
+
+    let height = (curr) => {
+        if (!curr) return 0;
+
+        let leftHeight = height(curr.left);
+        let rightHeight = height(curr.right);
+
+        if (Math.abs(leftHeight - rightHeight) > 1) {
+            ans = false;
+        }
+
+        return Math.max(leftHeight, rightHeight) + 1;
+
+    }
+
+    height(root);
+    return ans;
 };
