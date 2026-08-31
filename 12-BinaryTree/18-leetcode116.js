@@ -12,7 +12,7 @@
  * @param {_Node} root
  * @return {_Node}
  */
-//! My Approach ------------------------>
+//! My Approach ------------------------> (Iterative Method)
 var connect = function (root) {
     if (!root) return root;
     let q = [root];
@@ -34,3 +34,26 @@ var connect = function (root) {
     return root;
 };
 
+//! Sir's Approach ---------------------> (Recursive Method)
+// Recursive Method -> 
+var connect = function (root) {
+    if (!root) return root;
+
+    let traverse = (curr) => {
+
+        //! Taki leaf node kk liye dikkt na ho .. 
+        if (curr.left) {
+            curr.left.next = curr.right;
+        }
+        //! For making the connection bw two childs of diff parent like (5 -> 6)
+        if (curr.right && curr.next) {
+            curr.right.next = curr.next.left
+        }
+
+        curr.left && traverse(curr.left);
+        curr.right && traverse(curr.right)
+    }
+
+    traverse(root);
+    return root;
+};
