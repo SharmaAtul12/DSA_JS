@@ -11,9 +11,9 @@ This repository documents my step-by-step DSA learning path, from core fundament
 | Metric | Value |
 | --- | --- |
 | Language | JavaScript |
-| Topic Modules | 12 |
+| Topic Modules | 13 |
 | Extra / Interview Sets | 3 |
-| Problems Solved | 116 |
+| Problems Solved | 134 |
 | Latest Milestone | 🎯 100 Questions (15 Aug 2026) |
 
 ---
@@ -51,7 +51,7 @@ My progress milestones are tracked in the [`Milestones/`](Milestones/) folder.
 - [x] Strings — Extra Practice
 - [x] Interview & Pattern Questions
 - [x] Binary Tree
-- [ ] Binary Search Tree (BST)
+- [x] Binary Search Tree (BST)
 - [ ] Heap / Priority Queue
 - [ ] Graphs
 - [ ] Dynamic Programming
@@ -74,7 +74,8 @@ DSA_JS/
 ├── 09-Strings-Advanced/             # Advanced string problems (+ notes images)
 ├── 10-Arrays-Extra-Ques/            # Extra array practice
 ├── 11-Strings-Extra-Ques/           # Extra string practice
-├── 12-BinaryTree/                    # Binary tree traversal problems (+ flow notes)
+├── 12-BinaryTree/                    # Binary tree traversal + problems (+ flow notes)
+├── 13-BinarySearchTree(BST)/         # Binary search tree problems
 ├── Extras/                          # Miscellaneous solved problems
 ├── Milestones/                      # Milestone snapshots
 └── README.md
@@ -302,8 +303,33 @@ Folder: [`12-BinaryTree/`](12-BinaryTree/)
 | 01 | `01-leetcode144.js` | Binary Tree Preorder Traversal |
 | 02 | `02-leetcode94.js` | Binary Tree Inorder Traversal |
 | 03 | `03-leetcode145.js` | Binary Tree Postorder Traversal |
+| 04 | `04-leetcode102.js` | Binary Tree Level Order Traversal |
+| 05 | `05-leetcode107.js` | Binary Tree Level Order Traversal II |
+| 06 | `06-leetcode103.js` | Binary Tree Zigzag Level Order Traversal |
+| 07 | `07-leetcode104.js` | Maximum Depth of Binary Tree |
+| 08 | `08-leetcode112.js` | Path Sum |
+| 09 | `09-leetcode101.js` | Symmetric Tree |
+| 10 | `10-leetcode226.js` | Invert Binary Tree |
+| 11 | `11-leetcode100.js` | Same Tree |
+| 12 | `12-leetcode110.js` | Balanced Binary Tree |
+| 13 | `13-leetcode543.js` | Diameter of Binary Tree |
+| 14 | `14-leetcode572.js` | Subtree of Another Tree |
+| 15 | `15-leetcode236.js` | Lowest Common Ancestor of a Binary Tree |
+| 16 | `16-leetcode199.js` | Binary Tree Right Side View |
+| 17 | `17-leetcode1448.js` | Count Good Nodes in Binary Tree |
+| 18 | `18-leetcode116.js` | Populating Next Right Pointers in Each Node |
+| 19 | `19-leetcode124.js` | Binary Tree Maximum Path Sum |
 
-📝 Flow notes cover recursive and iterative traversal approaches.
+📝 Flow notes (`*-flow.png`, `*-iterative-flow.png`) cover recursive and iterative traversal approaches.
+
+---
+
+### 🌲 13 · Binary Search Tree (BST)
+Folder: [`13-BinarySearchTree(BST)/`](13-BinarySearchTree(BST)/)
+
+| # | File | Problem |
+| --- | --- | --- |
+| 01 | `01-leetcode98.js` | Validate Binary Search Tree |
 
 ---
 
@@ -321,6 +347,7 @@ Additional solved problems outside the main numbered path.
 | 05 | `05-leetcode1281.js` | Subtract the Product and Sum of Digits of an Integer |
 | 06 | `06-leetcode55.js` | Jump Game |
 | 07 | `07-leetcode2169.js` | Count Operations to Obtain Zero |
+| 08 | `08-leetcode3718.js` | Smallest Missing Multiple of K |
 
 ---
 
@@ -347,7 +374,7 @@ Additional solved problems outside the main numbered path.
 - **Language:** JavaScript
 - The repository has grown beyond the initial roadmap and now includes extra question modules and milestone snapshots.
 - Current work spans both core topic progression and additional practice outside the main sequence.
-- Next up on the roadmap: **Trees, Heaps, Graphs, and Dynamic Programming.**
+- Next up on the roadmap: **Heaps, Graphs, and Dynamic Programming.**
 
 ---
 
