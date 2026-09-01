@@ -13,7 +13,7 @@ This repository documents my step-by-step DSA learning path, from core fundament
 | Language | JavaScript |
 | Topic Modules | 13 |
 | Extra / Interview Sets | 3 |
-| Problems Solved | 134 |
+| Problems Solved | 138 |
 | Latest Milestone | 🎯 100 Questions (15 Aug 2026) |
 
 ---
@@ -330,6 +330,10 @@ Folder: [`13-BinarySearchTree(BST)/`](13-BinarySearchTree(BST)/)
 | # | File | Problem |
 | --- | --- | --- |
 | 01 | `01-leetcode98.js` | Validate Binary Search Tree |
+| 02 | `02-leetcode700.js` | Search in a Binary Search Tree |
+| 03 | `03-leetcode701.js` | Insert into a Binary Search Tree |
+| 04 | `04-leetcode230.js` | Kth Smallest Element in a BST |
+| 05 | `05-leetcode235.js` | Lowest Common Ancestor of a BST |
 
 ---
 
