@@ -17,7 +17,7 @@
    The parent combines both child results using isLeftBST && isRightBST.
    Therefore, BST validation uses top-down constraints + bottom-up result combination.
  */
-
+//! Way - 1 (check current node then check left and right subtrees)
 var isValidBST = function (root) {
   let isBST = (curr, low, high) => {
     if (!curr) return true;
@@ -33,4 +33,27 @@ var isValidBST = function (root) {
   };
 
   return isBST(root, null, null);
+};
+
+//! Way - 2 (check left and right subtrees then check the current node)
+var isValidBST = function (root) {
+
+    let traversal = (curr, low, high) => {
+        if (!curr) return true;
+
+        let left = traversal(curr.left, low, curr.val)
+        let right = traversal(curr.right, curr.val, high)
+
+        let currRes = true;
+        if (low != null && curr.val <= low || high != null && curr.val >= high) {
+            currRes = false;
+        } else {
+            currRes = true;
+        }
+
+        return left && right && currRes;
+
+    }
+
+    return traversal(root, null, null)
 };
