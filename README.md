@@ -1,8 +1,28 @@
+<div align="center">
+
 # 🚀 DSA Journey in JavaScript
 
-> A structured, revision-friendly archive of my daily **Data Structures & Algorithms** practice in **JavaScript**.
+**A structured, revision-friendly archive of my daily Data Structures & Algorithms practice — one problem at a time.**
 
-This repository documents my step-by-step DSA learning path, from core fundamentals to advanced patterns, along with extra practice sets and personal milestones. Every folder maps to a topic, and every file is a solved problem, mostly from LeetCode.
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-143-brightgreen)
+![Modules](https://img.shields.io/badge/Topic%20Modules-13-blue)
+![Streak](https://img.shields.io/badge/🔥%20Streak-100%20Days-orange)
+![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?logo=leetcode&logoColor=white)
+
+_Consistency over intensity. Show up daily, solve one more._
+
+</div>
+
+---
+
+## 📖 The Story So Far
+
+This repository is my **learning diary in code**. It began with the absolute basics — reversing arrays and printing numbers with recursion — and has grown into a full archive spanning trees, sliding windows, and monotonic stacks.
+
+Every folder is a **chapter**. Every file is a **problem I sat with, understood, and solved** — mostly from LeetCode, with inline comments capturing the intuition so future-me can revise fast. The numbers you see below aren't the point; the daily habit behind them is.
+
+> From `console.log("Hello Recursion")` to *Binary Tree Maximum Path Sum* — this is that path, kept honest and in order.
 
 ---
 
@@ -10,36 +30,77 @@ This repository documents my step-by-step DSA learning path, from core fundament
 
 | Metric | Value |
 | --- | --- |
-| Language | JavaScript |
-| Topic Modules | 13 |
-| Extra / Interview Sets | 3 |
-| Problems Solved | 138 |
-| Latest Milestone | 🎯 100 Questions (15 Aug 2026) |
+| 🗣️ Language | JavaScript |
+| 📚 Topic Modules | 13 |
+| 🧩 Extra / Interview Sets | 3 |
+| ✅ Problems Solved | **143** |
+| 🌳 Deepest Topic | Trees (Binary Tree + BST) |
+| 🔥 Latest Milestone | **100-Day Streak** (7 Sep 2026) |
+| 🎯 Now Solving | Trees → next up: Heaps |
+
+---
+
+## 🧭 Journey Timeline
+
+The path so far, grouped into phases. Each phase built the foundation for the next.
+
+```text
+Phase 1 ─ Foundations         Arrays · Recursion · Searching & Sorting
+   │
+Phase 2 ─ Core Structures     Linked List · Strings · Stack & Queue
+   │
+Phase 3 ─ Patterns            Binary Search · Two Pointers & Sliding Window · Strings Advanced
+   │
+Phase 4 ─ Reinforcement       Arrays Extra · Strings Extra · Interview & Pattern Sets · Extras
+   │
+Phase 5 ─ Trees  (current)    Binary Tree · Binary Search Tree
+   │
+Phase 6 ─ Next                Heaps · Graphs · Dynamic Programming
+```
+
+**Milestones along the way:**
+
+```text
+[ Start ] ───▶ 🥉 50 solved ───▶ 🎯 100 solved ───▶ 🔥 100-day streak ───▶ [ Ongoing ]
+              19 Jul 2026        15 Aug 2026         7 Sep 2026
+```
 
 ---
 
 ## 🏆 Achievements & Milestones
 
-My progress milestones are tracked in the [`Milestones/`](Milestones/) folder.
+Every snapshot below is a real checkpoint, saved in the [`Milestones/`](Milestones/) folder.
 
-### 🎯 100 Questions Milestone — 15 Aug 2026
-![100 Questions milestone](Milestones/leetcode100Q-%2815%20Aug%202026%29.png)
+### 🔥 100-Day Solving Streak — 7 Sep 2026
+> One hundred straight days of showing up. The habit is the real win.
 
-### 🥉 50 Questions Milestone — 19 Jul 2026
-![50 Questions milestone](Milestones/leetcode50-%2819%20July%202026%29.png)
+![100 Day streak milestone](Milestones/03-leetcode100D%287%20Sep%202026%29.png)
+
+### 🎯 100 Questions Solved — 15 Aug 2026
+> Triple digits. Momentum locked in.
+
+![100 Questions milestone](Milestones/02-leetcode100Q-%2815%20Aug%202026%29.png)
+
+### 🥉 50 Questions Solved — 19 Jul 2026
+> The first big checkpoint — proof the routine was sticking.
+
+![50 Questions milestone](Milestones/01-leetcode50-%2819%20July%202026%29.png)
 
 | Milestone | Date | Snapshot |
 | --- | --- | --- |
-| 50 Problems Solved | 19 July 2026 | `Milestones/leetcode50-(19 July 2026).png` |
-| 100 Problems Solved | 15 Aug 2026 | `Milestones/leetcode100Q-(15 Aug 2026).png` |
+| 🥉 50 Problems Solved | 19 July 2026 | `Milestones/01-leetcode50-(19 July 2026).png` |
+| 🎯 100 Problems Solved | 15 Aug 2026 | `Milestones/02-leetcode100Q-(15 Aug 2026).png` |
+| 🔥 100-Day Solving Streak | 7 Sep 2026 | `Milestones/03-leetcode100D(7 Sep 2026).png` |
 
 ---
 
-## 🗺️ Journey Roadmap
+## 🗺️ Roadmap & Progress
+
+**Completed** ✅ &nbsp;·&nbsp; **In Progress** 🚧 &nbsp;·&nbsp; **Planned** 🔜
 
 - [x] Arrays
 - [x] Recursion
-- [x] Searching and Sorting
+- [x] Searching & Sorting
 - [x] Binary Search Algorithm
 - [x] Linked List
 - [x] Strings
@@ -52,9 +113,48 @@ My progress milestones are tracked in the [`Milestones/`](Milestones/) folder.
 - [x] Interview & Pattern Questions
 - [x] Binary Tree
 - [x] Binary Search Tree (BST)
-- [ ] Heap / Priority Queue
-- [ ] Graphs
-- [ ] Dynamic Programming
+- [ ] 🔜 Heap / Priority Queue
+- [ ] 🔜 Graphs
+- [ ] 🔜 Dynamic Programming
+
+---
+
+## 📊 Topic Progress at a Glance
+
+| Module | Topic | Solved | Status |
+| --- | --- | :---: | :---: |
+| 00 | Interview & Pattern Questions | 2 | ✅ |
+| 01 | Arrays | 12 | ✅ |
+| 02 | Recursion | 8 | ✅ |
+| 03 | Searching & Sorting | 6 | ✅ |
+| 04 | Linked List | 14 | ✅ |
+| 05 | Strings | 13 | ✅ |
+| 06 | Stack & Queue | 12 | ✅ |
+| 07 | Binary Search Algorithm | 10 | ✅ |
+| 08 | Two Pointers & Sliding Window | 11 | ✅ |
+| 09 | Strings — Advanced | 7 | ✅ |
+| 10 | Arrays — Extra | 7 | ✅ |
+| 11 | Strings — Extra | 4 | ✅ |
+| 12 | Binary Tree | 20 | ✅ |
+| 13 | Binary Search Tree (BST) | 5 | ✅ |
+| — | Extras | 12 | ✅ |
+| | **Total** | **143** | |
+
+---
+
+## 🧠 Patterns & Techniques Picked Up
+
+A quick map of the problem-solving tools this journey has built:
+
+- **Two Pointers** — sorted-pair search, in-place partitioning, container/water problems
+- **Sliding Window** — longest/shortest substring, permutation-in-string, window maximum
+- **Binary Search** — on sorted arrays *and* on the answer space (rotated arrays, peaks)
+- **Fast & Slow Pointers** — cycle detection, middle node, palindrome lists
+- **Monotonic Stack** — next greater element, daily temperatures
+- **BFS / Level Order** — trees, zigzag traversal, rotting oranges (grid BFS)
+- **DFS & Recursion** — tree depth/diameter, path sums, subtree checks
+- **Hashing / Frequency Maps** — anagrams, unique characters, grouping
+- **Prefix / Suffix Precompute** — running sums, stable-index scoring
 
 ---
 
@@ -62,41 +162,50 @@ My progress milestones are tracked in the [`Milestones/`](Milestones/) folder.
 
 ```text
 DSA_JS/
-├── 00-Interview-Questions/          # Interview & pattern-based problems
-├── 01-arrays/                       # Core array problems
-├── 02-Recursion/                    # Recursion fundamentals + problems
-├── 03-Searching-and-Sorting/        # Search & sort algorithms (+ notes images)
-├── 04-Linked-List/                  # Linked list problems
-├── 05-Strings/                      # Core string problems (+ notes image)
-├── 06-Stack-and-Queue/              # Stack & queue problems (+ Notes/)
-├── 07-Binary-Search-Algorithm/      # Binary search patterns
-├── 08-Two-Pointers-&-Sliding-Window/# Two pointers & sliding window
-├── 09-Strings-Advanced/             # Advanced string problems (+ notes images)
-├── 10-Arrays-Extra-Ques/            # Extra array practice
-├── 11-Strings-Extra-Ques/           # Extra string practice
+├── 00-Interview-Questions/           # Interview & pattern-based problems
+├── 01-arrays/                        # Core array problems
+├── 02-Recursion/                     # Recursion fundamentals + problems
+├── 03-Searching-and-Sorting/         # Search & sort algorithms (+ notes images)
+├── 04-Linked-List/                   # Linked list problems
+├── 05-Strings/                       # Core string problems (+ notes image)
+├── 06-Stack-and-Queue/               # Stack & queue problems (+ Notes/)
+├── 07-Binary-Search-Algorithm/       # Binary search patterns
+├── 08-Two-Pointers-&-Sliding-Window/ # Two pointers & sliding window
+├── 09-Strings-Advanced/              # Advanced string problems (+ notes images)
+├── 10-Arrays-Extra-Ques/             # Extra array practice
+├── 11-Strings-Extra-Ques/            # Extra string practice
 ├── 12-BinaryTree/                    # Binary tree traversal + problems (+ flow notes)
 ├── 13-BinarySearchTree(BST)/         # Binary search tree problems
-├── Extras/                          # Miscellaneous solved problems
-├── Milestones/                      # Milestone snapshots
+├── Extras/                           # Miscellaneous solved problems
+├── Milestones/                       # Milestone snapshots
+├── DSA-Revision-Sheet.pdf            # Consolidated revision sheet
 └── README.md
 ```
 
 ---
 
-## 📖 Detailed Module Index
+## 📚 Detailed Module Index
 
-### 🧩 00 · Interview Questions
+> Each module is a chapter of the journey. Files are prefixed by solve order and the LeetCode problem ID.
+
+<details open>
+<summary><b>🧩 00 · Interview Questions</b> — pattern-based problems &nbsp;·&nbsp; 2 solved</summary>
+
 Folder: [`00-Interview-Questions/`](00-Interview-Questions/)
+**Focus:** interval merging, game-theory / math patterns.
 
 | # | File | Problem |
 | --- | --- | --- |
 | 01 | `01-mergeIntervals.js` | Merge Intervals |
 | 02 | `02-divisorGame(leetcode-1025).js` | Divisor Game (LeetCode 1025) |
 
----
+</details>
 
-### 📊 01 · Arrays
+<details>
+<summary><b>📊 01 · Arrays</b> — the starting point &nbsp;·&nbsp; 12 solved</summary>
+
 Folder: [`01-arrays/`](01-arrays/)
+**Focus:** in-place edits, two-pointer basics, XOR tricks, prefix sums.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -113,10 +222,13 @@ Folder: [`01-arrays/`](01-arrays/)
 | 11 | `11-leetcode1480.js` | Running Sum of 1d Array |
 | 12 | `12-leetcode189.js` | Rotate Array |
 
----
+</details>
 
-### 🔁 02 · Recursion
+<details>
+<summary><b>🔁 02 · Recursion</b> — thinking in subproblems &nbsp;·&nbsp; 8 solved</summary>
+
 Folder: [`02-Recursion/`](02-Recursion/)
+**Focus:** base cases, call-stack intuition, building toward divide & conquer.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -129,10 +241,13 @@ Folder: [`02-Recursion/`](02-Recursion/)
 | 07 | `07-leetcode231.js` | Power of Two |
 | 08 | `08-leetcode509.js` | Fibonacci Number |
 
----
+</details>
 
-### 🔎 03 · Searching and Sorting
+<details>
+<summary><b>🔎 03 · Searching and Sorting</b> — the classics &nbsp;·&nbsp; 6 solved</summary>
+
 Folder: [`03-Searching-and-Sorting/`](03-Searching-and-Sorting/)
+**Focus:** linear vs binary search, O(n²) sorts, and merge sort's divide & conquer.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -145,10 +260,13 @@ Folder: [`03-Searching-and-Sorting/`](03-Searching-and-Sorting/)
 
 📝 Reference images: `mergeSort-GPT.png`, `mergeSort-Sir.jpeg`
 
----
+</details>
 
-### 🔗 04 · Linked List
+<details>
+<summary><b>🔗 04 · Linked List</b> — pointers everywhere &nbsp;·&nbsp; 14 solved</summary>
+
 Folder: [`04-Linked-List/`](04-Linked-List/)
+**Focus:** node manipulation, fast/slow pointers, reversal, cycle detection.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -167,10 +285,13 @@ Folder: [`04-Linked-List/`](04-Linked-List/)
 | 13 | `13-leetcode61.js` | Rotate List |
 | 14 | `14-leetcode24.js` | Swap Nodes in Pairs |
 
----
+</details>
 
-### 🔤 05 · Strings
+<details>
+<summary><b>🔤 05 · Strings</b> — text wrangling &nbsp;·&nbsp; 13 solved</summary>
+
 Folder: [`05-Strings/`](05-Strings/)
+**Focus:** traversal, frequency counting, palindromes, anagrams, hashing.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -190,10 +311,13 @@ Folder: [`05-Strings/`](05-Strings/)
 
 📝 Reference image: `13-interview.png`
 
----
+</details>
 
-### 📚 06 · Stack and Queue
+<details>
+<summary><b>📚 06 · Stack and Queue</b> — LIFO, FIFO & monotonic stacks &nbsp;·&nbsp; 12 solved</summary>
+
 Folder: [`06-Stack-and-Queue/`](06-Stack-and-Queue/)
+**Focus:** parentheses matching, min stack, monotonic stacks, grid BFS.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -212,10 +336,13 @@ Folder: [`06-Stack-and-Queue/`](06-Stack-and-Queue/)
 
 📝 Extra notes in `Notes/` (`prototype.png`)
 
----
+</details>
 
-### 🎯 07 · Binary Search Algorithm
+<details>
+<summary><b>🎯 07 · Binary Search Algorithm</b> — searching smarter &nbsp;·&nbsp; 10 solved</summary>
+
 Folder: [`07-Binary-Search-Algorithm/`](07-Binary-Search-Algorithm/)
+**Focus:** classic binary search plus searching on the answer space and rotated arrays.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -230,10 +357,13 @@ Folder: [`07-Binary-Search-Algorithm/`](07-Binary-Search-Algorithm/)
 | 09 | `09-leetcode540.js` | Single Element in a Sorted Array |
 | 10 | `10-leetcode658.js` | Find K Closest Elements |
 
----
+</details>
 
-### ↔️ 08 · Two Pointers and Sliding Window
+<details>
+<summary><b>↔️ 08 · Two Pointers and Sliding Window</b> — the workhorse patterns &nbsp;·&nbsp; 11 solved</summary>
+
 Folder: [`08-Two-Pointers-&-Sliding-Window/`](08-Two-Pointers-&-Sliding-Window/)
+**Focus:** opposite/converging pointers, fixed & dynamic windows, deque optimization.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -249,10 +379,13 @@ Folder: [`08-Two-Pointers-&-Sliding-Window/`](08-Two-Pointers-&-Sliding-Window/)
 | 10 | `10-leetcode567.js` | Permutation in String |
 | 11 | `11-leetcode239.js` | Sliding Window Maximum |
 
----
+</details>
 
-### 🧵 09 · Strings Advanced
+<details>
+<summary><b>🧵 09 · Strings Advanced</b> — harder text problems &nbsp;·&nbsp; 7 solved</summary>
+
 Folder: [`09-Strings-Advanced/`](09-Strings-Advanced/)
+**Focus:** stack-based parsing, recursion on strings, greedy reorganization.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -266,10 +399,13 @@ Folder: [`09-Strings-Advanced/`](09-Strings-Advanced/)
 
 📝 Reference images: `04-leetcode-394(Recursion).png`, `05-leetcode-38(CountandSay).png`
 
----
+</details>
 
-### ➕ 10 · Arrays — Extra Questions
+<details>
+<summary><b>➕ 10 · Arrays — Extra Questions</b> — reinforcement reps &nbsp;·&nbsp; 7 solved</summary>
+
 Folder: [`10-Arrays-Extra-Ques/`](10-Arrays-Extra-Ques/)
+**Focus:** extra array practice — majority element, Kadane's, duplicates.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -281,10 +417,13 @@ Folder: [`10-Arrays-Extra-Ques/`](10-Arrays-Extra-Ques/)
 | 06 | `06-leetcode217.js` | Contains Duplicate |
 | 07 | `07-leetcode53.js` | Maximum Subarray |
 
----
+</details>
 
-### ➕ 11 · Strings — Extra Questions
+<details>
+<summary><b>➕ 11 · Strings — Extra Questions</b> — more reps &nbsp;·&nbsp; 4 solved</summary>
+
 Folder: [`11-Strings-Extra-Ques/`](11-Strings-Extra-Ques/)
+**Focus:** adjacent-duplicate removal, sliding-window on strings, compression.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -293,10 +432,13 @@ Folder: [`11-Strings-Extra-Ques/`](11-Strings-Extra-Ques/)
 | 03 | `03-leetcode387.js` | First Unique Character in a String |
 | 04 | `04-leetcode443.js` | String Compression |
 
----
+</details>
 
-### 🌳 12 · Binary Tree
+<details>
+<summary><b>🌳 12 · Binary Tree</b> — the current chapter &nbsp;·&nbsp; 20 solved</summary>
+
 Folder: [`12-BinaryTree/`](12-BinaryTree/)
+**Focus:** all traversals (recursive + iterative), level-order/BFS, depth, path & LCA problems.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -319,13 +461,17 @@ Folder: [`12-BinaryTree/`](12-BinaryTree/)
 | 17 | `17-leetcode1448.js` | Count Good Nodes in Binary Tree |
 | 18 | `18-leetcode116.js` | Populating Next Right Pointers in Each Node |
 | 19 | `19-leetcode124.js` | Binary Tree Maximum Path Sum |
+| 20 | `20-leetcode662.js` | Maximum Width of Binary Tree |
 
-📝 Flow notes (`*-flow.png`, `*-iterative-flow.png`) cover recursive and iterative traversal approaches.
+📝 Flow notes (`*-flow.png`, `*-iterative-flow.png`) walk through recursive and iterative traversal approaches.
 
----
+</details>
 
-### 🌲 13 · Binary Search Tree (BST)
+<details>
+<summary><b>🌲 13 · Binary Search Tree (BST)</b> — ordered trees &nbsp;·&nbsp; 5 solved</summary>
+
 Folder: [`13-BinarySearchTree(BST)/`](13-BinarySearchTree(BST)/)
+**Focus:** BST invariants, ordered traversal, search/insert, LCA on a BST.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -335,12 +481,13 @@ Folder: [`13-BinarySearchTree(BST)/`](13-BinarySearchTree(BST)/)
 | 04 | `04-leetcode230.js` | Kth Smallest Element in a BST |
 | 05 | `05-leetcode235.js` | Lowest Common Ancestor of a BST |
 
----
+</details>
 
-### 🧪 Extras
+<details>
+<summary><b>🧪 Extras</b> — off-path practice &nbsp;·&nbsp; 12 solved</summary>
+
 Folder: [`Extras/`](Extras/)
-
-Additional solved problems outside the main numbered path.
+Additional solved problems outside the main numbered path — daily challenges and one-offs.
 
 | # | File | Problem |
 | --- | --- | --- |
@@ -352,34 +499,61 @@ Additional solved problems outside the main numbered path.
 | 06 | `06-leetcode55.js` | Jump Game |
 | 07 | `07-leetcode2169.js` | Count Operations to Obtain Zero |
 | 08 | `08-leetcode3718.js` | Smallest Missing Multiple of K |
+| 09 | `09-leetcode3903.js` | Smallest Stable Index I |
+| 10 | `10-leetcode3904.js` | Smallest Stable Index II |
+| 11 | `11-leetcode9.js` | Palindrome Number |
+| 12 | `12-leetcode35.js` | Search Insert Position |
+
+</details>
 
 ---
 
-## 🎯 Why This Repository Exists
+## ▶️ Running a Solution
 
-- To track progress consistently, day by day
-- To strengthen DSA fundamentals across all core topics
-- To build a revision-friendly JavaScript problem-solving archive
-- To document milestones and growing problem-solving confidence
+Each file is plain JavaScript and runs with [Node.js](https://nodejs.org/):
+
+```bash
+# from the repo root
+node 12-BinaryTree/20-leetcode662.js
+```
+
+Most files include a small driver / sample call at the bottom, plus inline comments explaining the approach.
 
 ---
 
 ## 🧭 How to Navigate
 
-1. Pick a topic folder (numbered by learning order).
-2. Files are prefixed with a sequence number and the LeetCode problem ID.
-3. Most solutions include inline comments explaining the approach and intuition.
-4. `.png` / `.jpeg` files are supporting notes, diagrams, or milestone snapshots.
+1. **Pick a chapter** — folders are numbered in learning order (00 → 13), then `Extras/`.
+2. **Read the file name** — prefixed with a solve-order number and the LeetCode problem ID.
+3. **Follow the comments** — most solutions explain the intuition, complexity, and edge cases inline.
+4. **Check the images** — `.png` / `.jpeg` files are hand-drawn notes, flow diagrams, or milestone snapshots.
+5. **Revise fast** — the `DSA-Revision-Sheet.pdf` collects key takeaways in one place.
 
 ---
 
-## 📝 Notes
+## 🎯 Why This Repository Exists
 
-- **Language:** JavaScript
-- The repository has grown beyond the initial roadmap and now includes extra question modules and milestone snapshots.
-- Current work spans both core topic progression and additional practice outside the main sequence.
-- Next up on the roadmap: **Heaps, Graphs, and Dynamic Programming.**
+- **Consistency** — to keep the daily solving habit visible and accountable.
+- **Fundamentals** — to build genuine strength across every core DSA topic.
+- **Revision** — to make a JavaScript-first archive I can quickly review before interviews.
+- **Growth** — to document milestones and watch problem-solving confidence compound over time.
 
 ---
 
-_Consistency over intensity. One problem at a time. 💪_
+## 🔮 What's Next
+
+The roadmap ahead:
+
+- **Heaps / Priority Queues** — top-K, scheduling, streaming medians
+- **Graphs** — BFS/DFS, topological sort, shortest paths, union-find
+- **Dynamic Programming** — memoization → tabulation, knapsack, sequences, grids
+
+---
+
+<div align="center">
+
+**143 problems in. Trees today, graphs tomorrow.**
+
+_Consistency over intensity. One problem at a time._ 💪
+
+</div>
