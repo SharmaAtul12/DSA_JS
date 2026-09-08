@@ -1,0 +1,27 @@
+/**
+ * @param {number} n
+ * @return {number}
+ */
+
+//! Way - 01 (Bad Approach)
+var countCommas = function(n) {
+    if(n < 1000) {
+        return 0;
+    }
+
+    let count = 0;
+    for(let i = 1000; i <= n; i++) {
+        count++;
+    }
+
+    return count;
+};
+
+//! Way - 02 (Good Approach)
+var countCommas = function (n) {
+    if (n < 1000) {
+        return 0;
+    }
+
+    return n - 999;
+};
