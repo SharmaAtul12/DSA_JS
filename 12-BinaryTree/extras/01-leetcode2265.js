@@ -37,3 +37,33 @@ var averageOfSubtree = function (root) {
     traversal(root);
     return ans;
 };
+
+//! Clean Way -> 
+
+var averageOfSubtree = function (root) {
+    let ans = 0;
+
+    var traversal = function (curr) {
+        if (!curr.left && !curr.right) {
+            ans++;
+            return [curr.val, 1]
+        }
+
+        let leftTree = curr.left ? traversal(curr.left) : [0, 0];
+        let rightTree = curr.right ? traversal(curr.right) : [0, 0];
+
+        let total = leftTree[1] + rightTree[1] + 1;
+        let totalSum = leftTree[0] + rightTree[0] + curr.val;
+
+        let average = Math.floor(totalSum / total);
+
+        if (average === curr.val) {
+            ans++;
+        }
+
+        return [totalSum, total]
+    }
+
+    traversal(root);
+    return ans;
+};
