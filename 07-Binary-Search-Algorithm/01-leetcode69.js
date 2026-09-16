@@ -49,3 +49,33 @@ var mySqrt = function (x) {
     }
     return r;
 };
+
+//! Now Leetcode has added restriction check , so we don't have to use ** . so we are doing mid * mid instead of mid ** 2
+
+/**
+ * @param {number} x
+ * @return {number}
+ */
+var mySqrt = function(x) {
+    if(x < 2) return x;
+
+    let l = 2;
+    let r = Math.floor(x/2);
+
+    while(l <= r) {
+        let mid = l + Math.floor((r - l)/ 2);
+
+        if(x === mid * mid) {
+            return mid
+        }
+        else if(x < mid * mid) {
+            r = mid - 1
+        }
+        else {
+            l = mid + 1
+        }
+    }
+    //* If x is not a perfect square, r is the largest valid number whose square <= x.
+    //* Since the answer needs to be rounded down, return r.
+    return r;
+};
