@@ -10,6 +10,7 @@ var search = function(nums, target) {
     // Here = is because of when there is only 1 element is in array So left and right is 0 which does    
     // not satisfy the condition l < r , that's why we added equals to which is l <= r . 
     while(left <= right) {
+        //! Always use () because of operator precedence.otherwise / opearator will be executed first and then + operator will be executed which is not what we want.
         let middle = Math.floor((left+right) / 2) ;
         if(nums[middle] === target) {
             return middle;
