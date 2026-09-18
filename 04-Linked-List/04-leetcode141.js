@@ -12,6 +12,8 @@
  * @param {ListNode} head
  * @return {boolean}
  */
+//* Here Space Complexity is O(n) and Time Complexity is O(n) as well
+
 var hasCycle = function(head) {
     let set = new Set();
     let curr = head;
