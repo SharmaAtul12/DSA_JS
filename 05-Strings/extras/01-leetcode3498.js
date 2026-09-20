@@ -19,3 +19,19 @@ var reverseDegree = function (s) {
     }
     return revDegree;
 };
+
+//!  With Array :-> 
+var reverseDegree = function (s) {
+    let arr = [
+        26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14,
+        13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+    ];
+
+    let revDegree = 0;
+
+    for (let i = 0; i < s.length; i++) {
+        revDegree = revDegree + (arr[s[i].charCodeAt() - 97] * (i + 1))
+    }
+    
+    return revDegree;
+};
