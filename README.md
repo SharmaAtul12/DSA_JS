@@ -5,8 +5,8 @@
 **A structured, revision-friendly archive of my daily Data Structures & Algorithms practice — one problem at a time.**
 
 ![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-143-brightgreen)
-![Modules](https://img.shields.io/badge/Topic%20Modules-13-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-151-brightgreen)
+![Modules](https://img.shields.io/badge/Topic%20Modules-14-blue)
 ![Streak](https://img.shields.io/badge/🔥%20Streak-100%20Days-orange)
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?logo=leetcode&logoColor=white)
 
@@ -31,12 +31,12 @@ Every folder is a **chapter**. Every file is a **problem I sat with, understood,
 | Metric | Value |
 | --- | --- |
 | 🗣️ Language | JavaScript |
-| 📚 Topic Modules | 13 |
+| 📚 Topic Modules | 14 |
 | 🧩 Extra / Interview Sets | 3 |
-| ✅ Problems Solved | **143** |
+| ✅ Problems Solved | **151** |
 | 🌳 Deepest Topic | Trees (Binary Tree + BST) |
 | 🔥 Latest Milestone | **100-Day Streak** (7 Sep 2026) |
-| 🎯 Now Solving | Trees → next up: Heaps |
+| 🎯 Now Solving | Numbers → next up: Heaps |
 
 ---
 
@@ -53,9 +53,11 @@ Phase 3 ─ Patterns            Binary Search · Two Pointers & Sliding Window �
    │
 Phase 4 ─ Reinforcement       Arrays Extra · Strings Extra · Interview & Pattern Sets · Extras
    │
-Phase 5 ─ Trees  (current)    Binary Tree · Binary Search Tree
+Phase 5 ─ Structures           Binary Tree · Binary Search Tree
    │
-Phase 6 ─ Next                Heaps · Graphs · Dynamic Programming
+Phase 6 ─ Numbers (current)   Number properties · digit techniques
+   │
+Phase 7 ─ Next                Heaps · Graphs · Dynamic Programming
 ```
 
 **Milestones along the way:**
@@ -113,6 +115,7 @@ Every snapshot below is a real checkpoint, saved in the [`Milestones/`](Mileston
 - [x] Interview & Pattern Questions
 - [x] Binary Tree
 - [x] Binary Search Tree (BST)
+- [x] Numbers
 - [ ] 🔜 Heap / Priority Queue
 - [ ] 🔜 Graphs
 - [ ] 🔜 Dynamic Programming
@@ -137,8 +140,10 @@ Every snapshot below is a real checkpoint, saved in the [`Milestones/`](Mileston
 | 11 | Strings — Extra | 4 | ✅ |
 | 12 | Binary Tree | 20 | ✅ |
 | 13 | Binary Search Tree (BST) | 5 | ✅ |
-| — | Extras | 12 | ✅ |
-| | **Total** | **143** | |
+| 14 | Numbers | 1 | ✅ |
+| — | Nested chapter extras | 5 | ✅ |
+| — | Extras | 14 | ✅ |
+| | **Total** | **151** | |
 
 ---
 
@@ -176,6 +181,7 @@ DSA_JS/
 ├── 11-Strings-Extra-Ques/            # Extra string practice
 ├── 12-BinaryTree/                    # Binary tree traversal + problems (+ flow notes)
 ├── 13-BinarySearchTree(BST)/         # Binary search tree problems
+├── 14-Numbers/                        # Number properties and digit techniques
 ├── Extras/                           # Miscellaneous solved problems
 ├── Milestones/                       # Milestone snapshots
 ├── DSA-Revision-Sheet.pdf            # Consolidated revision sheet
@@ -224,6 +230,8 @@ Folder: [`01-arrays/`](01-arrays/)
 
 </details>
 
+Nested extras: [`extras/01-leetcode3843.js`](01-arrays/extras/01-leetcode3843.js) — count 3-digit even numbers; [`extras/02-leetcode2094.js`](01-arrays/extras/02-leetcode2094.js) — find 3-digit even numbers.
+
 <details>
 <summary><b>🔁 02 · Recursion</b> — thinking in subproblems &nbsp;·&nbsp; 8 solved</summary>
 
@@ -242,6 +250,8 @@ Folder: [`02-Recursion/`](02-Recursion/)
 | 08 | `08-leetcode509.js` | Fibonacci Number |
 
 </details>
+
+Nested extra: [`extras/01-leetcode22.js`](02-Recursion/extras/01-leetcode22.js) — Generate Parentheses.
 
 <details>
 <summary><b>🔎 03 · Searching and Sorting</b> — the classics &nbsp;·&nbsp; 6 solved</summary>
@@ -312,6 +322,8 @@ Folder: [`05-Strings/`](05-Strings/)
 📝 Reference image: `13-interview.png`
 
 </details>
+
+Nested extra: [`extras/01-leetcode3498.js`](05-Strings/extras/01-leetcode3498.js) — Reverse Degree of a String.
 
 <details>
 <summary><b>📚 06 · Stack and Queue</b> — LIFO, FIFO & monotonic stacks &nbsp;·&nbsp; 12 solved</summary>
@@ -465,6 +477,8 @@ Folder: [`12-BinaryTree/`](12-BinaryTree/)
 
 📝 Flow notes (`*-flow.png`, `*-iterative-flow.png`) walk through recursive and iterative traversal approaches.
 
+Nested extra: [`extras/01-leetcode2265.js`](12-BinaryTree/extras/01-leetcode2265.js) — Count Nodes Equal to Average of Subtree.
+
 </details>
 
 <details>
@@ -484,7 +498,7 @@ Folder: [`13-BinarySearchTree(BST)/`](13-BinarySearchTree(BST)/)
 </details>
 
 <details>
-<summary><b>🧪 Extras</b> — off-path practice &nbsp;·&nbsp; 12 solved</summary>
+<summary><b>🧪 Extras</b> — off-path practice &nbsp;·&nbsp; 14 solved</summary>
 
 Folder: [`Extras/`](Extras/)
 Additional solved problems outside the main numbered path — daily challenges and one-offs.
@@ -503,6 +517,20 @@ Additional solved problems outside the main numbered path — daily challenges a
 | 10 | `10-leetcode3904.js` | Smallest Stable Index II |
 | 11 | `11-leetcode9.js` | Palindrome Number |
 | 12 | `12-leetcode35.js` | Search Insert Position |
+| 13 | `13-leetcode3870.js` | LeetCode 3870 challenge |
+| 14 | `14-leetcode3871.js` | LeetCode 3871 challenge |
+
+</details>
+
+<details>
+<summary><b>🔢 14 · Numbers</b> — number properties &nbsp;·&nbsp; 1 solved</summary>
+
+Folder: [`14-Numbers/`](14-Numbers/)
+**Focus:** digit extraction, repeated transformations, and cycle detection.
+
+| # | File | Problem |
+| --- | --- | --- |
+| 01 | `01-leetcode202.js` | Happy Number |
 
 </details>
 
@@ -523,7 +551,7 @@ Most files include a small driver / sample call at the bottom, plus inline comme
 
 ## 🧭 How to Navigate
 
-1. **Pick a chapter** — folders are numbered in learning order (00 → 13), then `Extras/`.
+1. **Pick a chapter** — folders are numbered in learning order (00 → 14), then `Extras/`.
 2. **Read the file name** — prefixed with a solve-order number and the LeetCode problem ID.
 3. **Follow the comments** — most solutions explain the intuition, complexity, and edge cases inline.
 4. **Check the images** — `.png` / `.jpeg` files are hand-drawn notes, flow diagrams, or milestone snapshots.
@@ -552,7 +580,7 @@ The roadmap ahead:
 
 <div align="center">
 
-**143 problems in. Trees today, graphs tomorrow.**
+**151 problems in. Numbers today, graphs tomorrow.**
 
 _Consistency over intensity. One problem at a time._ 💪
 
