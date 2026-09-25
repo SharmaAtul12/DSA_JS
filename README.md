@@ -5,8 +5,8 @@
 **A structured, revision-friendly archive of my daily Data Structures & Algorithms practice — one problem at a time.**
 
 ![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-151-brightgreen)
-![Modules](https://img.shields.io/badge/Topic%20Modules-14-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-154-brightgreen)
+![Modules](https://img.shields.io/badge/Topic%20Modules-15-blue)
 ![Streak](https://img.shields.io/badge/🔥%20Streak-100%20Days-orange)
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?logo=leetcode&logoColor=white)
 
@@ -31,9 +31,9 @@ Every folder is a **chapter**. Every file is a **problem I sat with, understood,
 | Metric | Value |
 | --- | --- |
 | 🗣️ Language | JavaScript |
-| 📚 Topic Modules | 14 |
+| 📚 Topic Modules | 15 |
 | 🧩 Extra / Interview Sets | 3 |
-| ✅ Problems Solved | **151** |
+| ✅ Problems Solved | **154** |
 | 🌳 Deepest Topic | Trees (Binary Tree + BST) |
 | 🔥 Latest Milestone | **100-Day Streak** (7 Sep 2026) |
 | 🎯 Now Solving | Numbers → next up: Heaps |
@@ -141,9 +141,9 @@ Every snapshot below is a real checkpoint, saved in the [`Milestones/`](Mileston
 | 12 | Binary Tree | 20 | ✅ |
 | 13 | Binary Search Tree (BST) | 5 | ✅ |
 | 14 | Numbers | 1 | ✅ |
-| — | Nested chapter extras | 5 | ✅ |
+| — | Nested chapter extras | 8 | ✅ |
 | — | Extras | 14 | ✅ |
-| | **Total** | **151** | |
+| | **Total** | **154** | |
 
 ---
 
@@ -230,7 +230,7 @@ Folder: [`01-arrays/`](01-arrays/)
 
 </details>
 
-Nested extras: [`extras/01-leetcode3843.js`](01-arrays/extras/01-leetcode3843.js) — count 3-digit even numbers; [`extras/02-leetcode2094.js`](01-arrays/extras/02-leetcode2094.js) — find 3-digit even numbers.
+Nested extras: [`extras/01-leetcode3843.js`](01-arrays/extras/01-leetcode3843.js) — count 3-digit even numbers; [`extras/02-leetcode2094.js`](01-arrays/extras/02-leetcode2094.js) — find 3-digit even numbers; [`extras/03-leetcode3550.js`](01-arrays/extras/03-leetcode3550.js) — smallest index with digit sum.
 
 <details>
 <summary><b>🔁 02 · Recursion</b> — thinking in subproblems &nbsp;·&nbsp; 8 solved</summary>
@@ -347,6 +347,8 @@ Folder: [`06-Stack-and-Queue/`](06-Stack-and-Queue/)
 | 12 | `12-leetcode2390.js` | Removing Stars From a String |
 
 📝 Extra notes in `Notes/` (`prototype.png`)
+
+Nested extras: [`extras/01-leetcode682.js`](06-Stack-and-Queue/extras/01-leetcode682.js) — Baseball Game; [`extras/02-leetcode844.js`](06-Stack-and-Queue/extras/02-leetcode844.js) — Backspace String Compare.
 
 </details>
 
@@ -580,7 +582,7 @@ The roadmap ahead:
 
 <div align="center">
 
-**151 problems in. Numbers today, graphs tomorrow.**
+**154 problems in. Numbers today, graphs tomorrow.**
 
 _Consistency over intensity. One problem at a time._ 💪
 
