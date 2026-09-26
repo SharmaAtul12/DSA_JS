@@ -10,6 +10,16 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
+
+/**
+ * ! Wrong thinking: Moving `curr` (`curr = curr.next`) changes the linked
+ * list/head — it only moves the `curr` variable.
+ * *Correct: Changing `curr.next` (`curr.next = curr.next.next`) changes the
+ * actual links; when `curr === dummy`, this also changes `dummy.next`, giving
+ * the new head.
+ */
+
+
 var modifiedList = function (nums, head) {
     let set = new Set();
     for (let i = 0; i < nums.length; i++) {
