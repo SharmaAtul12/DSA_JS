@@ -5,7 +5,7 @@
 **A structured, revision-friendly archive of my daily Data Structures & Algorithms practice — one problem at a time.**
 
 ![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-154-brightgreen)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-155-brightgreen)
 ![Modules](https://img.shields.io/badge/Topic%20Modules-15-blue)
 ![Streak](https://img.shields.io/badge/🔥%20Streak-100%20Days-orange)
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?logo=leetcode&logoColor=white)
@@ -33,7 +33,7 @@ Every folder is a **chapter**. Every file is a **problem I sat with, understood,
 | 🗣️ Language | JavaScript |
 | 📚 Topic Modules | 15 |
 | 🧩 Extra / Interview Sets | 3 |
-| ✅ Problems Solved | **154** |
+| ✅ Problems Solved | **155** |
 | 🌳 Deepest Topic | Trees (Binary Tree + BST) |
 | 🔥 Latest Milestone | **100-Day Streak** (7 Sep 2026) |
 | 🎯 Now Solving | Numbers → next up: Heaps |
@@ -141,9 +141,9 @@ Every snapshot below is a real checkpoint, saved in the [`Milestones/`](Mileston
 | 12 | Binary Tree | 20 | ✅ |
 | 13 | Binary Search Tree (BST) | 5 | ✅ |
 | 14 | Numbers | 1 | ✅ |
-| — | Nested chapter extras | 8 | ✅ |
+| — | Nested chapter extras | 9 | ✅ |
 | — | Extras | 14 | ✅ |
-| | **Total** | **154** | |
+| | **Total** | **155** | |
 
 ---
 
@@ -296,6 +296,8 @@ Folder: [`04-Linked-List/`](04-Linked-List/)
 | 14 | `14-leetcode24.js` | Swap Nodes in Pairs |
 
 </details>
+
+Nested extra: [`extras/01-leetcode3217.js`](04-Linked-List/extras/01-leetcode3217.js) — Delete Nodes From Linked List Present in Array.
 
 <details>
 <summary><b>🔤 05 · Strings</b> — text wrangling &nbsp;·&nbsp; 13 solved</summary>
