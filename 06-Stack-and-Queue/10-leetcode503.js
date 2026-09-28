@@ -64,5 +64,7 @@ var nextGreaterElements = function (arr) {
         stack.push(arr[i % n])
     }
 
-    return ans.slice(0, n)
+    // return ans.slice(0, n)
+    //! Here we can simply return ans because we are already storing the answer in the correct index of the original array.
+    return ans; 
 };
