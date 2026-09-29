@@ -5,7 +5,7 @@
 **A structured, revision-friendly archive of my daily Data Structures & Algorithms practice — one problem at a time.**
 
 ![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-155-brightgreen)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-160-brightgreen)
 ![Modules](https://img.shields.io/badge/Topic%20Modules-15-blue)
 ![Streak](https://img.shields.io/badge/🔥%20Streak-100%20Days-orange)
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?logo=leetcode&logoColor=white)
@@ -33,7 +33,7 @@ Every folder is a **chapter**. Every file is a **problem I sat with, understood,
 | 🗣️ Language | JavaScript |
 | 📚 Topic Modules | 15 |
 | 🧩 Extra / Interview Sets | 3 |
-| ✅ Problems Solved | **155** |
+| ✅ Problems Solved | **160** |
 | 🌳 Deepest Topic | Trees (Binary Tree + BST) |
 | 🔥 Latest Milestone | **100-Day Streak** (7 Sep 2026) |
 | 🎯 Now Solving | Numbers → next up: Heaps |
@@ -141,9 +141,9 @@ Every snapshot below is a real checkpoint, saved in the [`Milestones/`](Mileston
 | 12 | Binary Tree | 20 | ✅ |
 | 13 | Binary Search Tree (BST) | 5 | ✅ |
 | 14 | Numbers | 1 | ✅ |
-| — | Nested chapter extras | 9 | ✅ |
+| — | Nested chapter extras | 14 | ✅ |
 | — | Extras | 14 | ✅ |
-| | **Total** | **155** | |
+| | **Total** | **160** | |
 
 ---
 
@@ -272,6 +272,8 @@ Folder: [`03-Searching-and-Sorting/`](03-Searching-and-Sorting/)
 
 </details>
 
+Nested extra: [`extras/01-leetcode1051.js`](03-Searching-and-Sorting/extras/01-leetcode1051.js) — Height Checker.
+
 <details>
 <summary><b>🔗 04 · Linked List</b> — pointers everywhere &nbsp;·&nbsp; 14 solved</summary>
 
@@ -298,6 +300,7 @@ Folder: [`04-Linked-List/`](04-Linked-List/)
 </details>
 
 Nested extra: [`extras/01-leetcode3217.js`](04-Linked-List/extras/01-leetcode3217.js) — Delete Nodes From Linked List Present in Array.
+[`extras/02-leetcode1290.js`](04-Linked-List/extras/02-leetcode1290.js) — Convert Binary Number in a Linked List to Integer.
 
 <details>
 <summary><b>🔤 05 · Strings</b> — text wrangling &nbsp;·&nbsp; 13 solved</summary>
@@ -326,6 +329,8 @@ Folder: [`05-Strings/`](05-Strings/)
 </details>
 
 Nested extra: [`extras/01-leetcode3498.js`](05-Strings/extras/01-leetcode3498.js) — Reverse Degree of a String.
+[`extras/02-leetcode1832.js`](05-Strings/extras/02-leetcode1832.js) — Check if the Sentence Is Pangram.
+[`extras/03-leetcode1614.js`](05-Strings/extras/03-leetcode1614.js) — Maximum Nesting Depth of the Parentheses.
 
 <details>
 <summary><b>📚 06 · Stack and Queue</b> — LIFO, FIFO & monotonic stacks &nbsp;·&nbsp; 12 solved</summary>
@@ -397,6 +402,8 @@ Folder: [`08-Two-Pointers-&-Sliding-Window/`](08-Two-Pointers-&-Sliding-Window/)
 
 </details>
 
+Nested extra: [`extras/01-leetcode75.js`](08-Two-Pointers-&-Sliding-Window/extras/01-leetcode75.js) — Sort Colors.
+
 <details>
 <summary><b>🧵 09 · Strings Advanced</b> — harder text problems &nbsp;·&nbsp; 7 solved</summary>
 
@@ -451,7 +458,7 @@ Folder: [`11-Strings-Extra-Ques/`](11-Strings-Extra-Ques/)
 </details>
 
 <details>
-<summary><b>🌳 12 · Binary Tree</b> — the current chapter &nbsp;·&nbsp; 20 solved</summary>
+<summary><b>🌳 12 · Binary Tree</b> — traversal and path problems &nbsp;·&nbsp; 20 solved</summary>
 
 Folder: [`12-BinaryTree/`](12-BinaryTree/)
 **Focus:** all traversals (recursive + iterative), level-order/BFS, depth, path & LCA problems.
@@ -584,7 +591,7 @@ The roadmap ahead:
 
 <div align="center">
 
-**154 problems in. Numbers today, graphs tomorrow.**
+**160 problems in. Numbers today, graphs tomorrow.**
 
 _Consistency over intensity. One problem at a time._ 💪
 
