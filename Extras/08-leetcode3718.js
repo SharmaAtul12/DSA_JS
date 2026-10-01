@@ -3,6 +3,15 @@
  * @param {number} k
  * @return {number}
  */
+
+/**
+ * Approach :->
+ * 1. Create a set to store the unique numbers from the input array.
+ * 2. Iterate through the input array and add each number to the set.
+ * 3. Iterate through the multiples of k and check if each is in the set.
+ * 4. Return the first multiple of k that is not in the set.
+ */
+
 var missingMultiple = function (nums, k) {
     let set = new Set();
 
