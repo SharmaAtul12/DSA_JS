@@ -92,7 +92,7 @@ Every snapshot below is a real checkpoint, saved in the [`Milestones/`](Mileston
 | --- | --- | --- |
 | 🥉 50 Problems Solved | 19 July 2026 | `Milestones/01-leetcode50-(19 July 2026).png` |
 | 🎯 100 Problems Solved | 15 Aug 2026 | `Milestones/02-leetcode100Q-(15 Aug 2026).png` |
-| 🔥 100-Day Solving Streak | 7 Sep 2026 | `Milestones/03-leetcode100D(7 Sep 2026).png` |
+| 🔥 100-Day Solving Streak | 7 Sep 2026 | `Milestones/03-leetcode100D(7 Sep 2026).png`, `Milestones/03-leetcode100D(7 Sep 2026)-2.png` |
 
 ---
 
@@ -509,6 +509,18 @@ Folder: [`13-BinarySearchTree(BST)/`](13-BinarySearchTree(BST)/)
 </details>
 
 <details>
+<summary><b>🔢 14 · Numbers</b> — number properties &nbsp;·&nbsp; 1 solved</summary>
+
+Folder: [`14-Numbers/`](14-Numbers/)
+**Focus:** digit extraction, repeated transformations, and cycle detection.
+
+| # | File | Problem |
+| --- | --- | --- |
+| 01 | `01-leetcode202.js` | Happy Number |
+
+</details>
+
+<details>
 <summary><b>🧪 Extras</b> — off-path practice &nbsp;·&nbsp; 14 solved</summary>
 
 Folder: [`Extras/`](Extras/)
@@ -528,20 +540,8 @@ Additional solved problems outside the main numbered path — daily challenges a
 | 10 | `10-leetcode3904.js` | Smallest Stable Index II |
 | 11 | `11-leetcode9.js` | Palindrome Number |
 | 12 | `12-leetcode35.js` | Search Insert Position |
-| 13 | `13-leetcode3870.js` | LeetCode 3870 challenge |
-| 14 | `14-leetcode3871.js` | LeetCode 3871 challenge |
-
-</details>
-
-<details>
-<summary><b>🔢 14 · Numbers</b> — number properties &nbsp;·&nbsp; 1 solved</summary>
-
-Folder: [`14-Numbers/`](14-Numbers/)
-**Focus:** digit extraction, repeated transformations, and cycle detection.
-
-| # | File | Problem |
-| --- | --- | --- |
-| 01 | `01-leetcode202.js` | Happy Number |
+| 13 | `13-leetcode3870.js` | Count Commas (brute force → counting) |
+| 14 | `14-leetcode3871.js` | Count Commas (grouped O(log n) counting) |
 
 </details>
 
