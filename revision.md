@@ -35,7 +35,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 
 | Date | Topic | Questions Revised |
 | --- | --- | :---: |
-| 12 Oct 2026 | Two Pointers & Sliding Window | 1 |
+| 12 Oct 2026 | Two Pointers & Sliding Window | 2 |
 
 ---
 
@@ -110,6 +110,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | Question | Description | 1st Revision | 2nd Revision | 3rd Revision |
 | --- | --- | :---: | :---: | :---: |
 | Is Subsequence (LeetCode 392) | Two-pointer scan of `t`; advance `s` on match, check all of `s` consumed | ✅ 12 Oct 2026 | — | — |
+| Find the Index of the First Occurrence in a String (LeetCode 28) | Slide a window over the haystack; compare each candidate substring against the needle | ✅ 12 Oct 2026 | — | — |
 
 ---
 
