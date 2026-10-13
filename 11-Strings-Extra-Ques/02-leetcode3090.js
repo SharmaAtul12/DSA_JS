@@ -2,7 +2,6 @@
  * @param {string} s
  * @return {number}
 */
-
 var maximumLengthSubstring = function(s) {
     let map = {};
     let i = j = 0;
