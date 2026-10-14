@@ -39,7 +39,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | 14 Oct 2026 | Linked List | 1 |
 | 14 Oct 2026 | Two Pointers & Sliding Window | 1 |
 | 14 Oct 2026 | Arrays | 4 |
-| 14 Oct 2026 | Arrays — Extra Questions | 1 |
+| 14 Oct 2026 | Arrays — Extra Questions | 2 |
 | 14 Oct 2026 | Strings | 2 |
 | 14 Oct 2026 | Stack and Queue | 1 |
 
@@ -138,6 +138,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | Question | Description | 1st Revision | 2nd Revision | 3rd Revision |
 | --- | --- | :---: | :---: | :---: |
 | Contains Duplicate (LeetCode 217) | Store each number in a hash map; if one is already present, a duplicate exists | ✅ 14 Oct 2026 | — | — |
+| Maximum Subarray (LeetCode 53) | Kadane's: keep a running sum, reset to 0 when negative, track the max seen | ✅ 14 Oct 2026 | — | — |
 
 ---
 
