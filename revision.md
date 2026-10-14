@@ -38,7 +38,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | 12 Oct 2026 | Two Pointers & Sliding Window | 2 |
 | 14 Oct 2026 | Linked List | 1 |
 | 14 Oct 2026 | Two Pointers & Sliding Window | 1 |
-| 14 Oct 2026 | Arrays | 3 |
+| 14 Oct 2026 | Arrays | 4 |
 | 14 Oct 2026 | Strings | 2 |
 | 14 Oct 2026 | Stack and Queue | 1 |
 
@@ -61,6 +61,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | Reverse String (LeetCode 344) | Two-pointer in-place swap; swap first↔last moving inward until the middle | ✅ 14 Oct 2026 | — | — |
 | Remove Duplicates from Sorted Array (LeetCode 26) | Slow pointer marks last unique; place each larger value right after it, return count | ✅ 14 Oct 2026 | — | — |
 | Missing Number (LeetCode 268) | Expected sum `n(n+1)/2` minus actual sum gives the missing number | ✅ 14 Oct 2026 | — | — |
+| Move Zeroes (LeetCode 283) | Two pointers; swap each non-zero into the next slot, zeroes bubble to the end keeping order | ✅ 14 Oct 2026 | — | — |
 
 ---
 
