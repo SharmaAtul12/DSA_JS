@@ -36,6 +36,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | Date | Topic | Questions Revised |
 | --- | --- | :---: |
 | 12 Oct 2026 | Two Pointers & Sliding Window | 2 |
+| 14 Oct 2026 | Linked List | 1 |
 
 ---
 
@@ -77,7 +78,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 
 | Question | Description | 1st Revision | 2nd Revision | 3rd Revision |
 | --- | --- | :---: | :---: | :---: |
-| _No revisions logged yet_ | — | — | — | — |
+| Reverse a Linked List (LeetCode 206) | Iterative 3-pointer reversal; flip each `next` pointer, return `prev` as new head | ✅ 14 Oct 2026 | — | — |
 
 ---
 
