@@ -40,6 +40,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | 14 Oct 2026 | Two Pointers & Sliding Window | 1 |
 | 14 Oct 2026 | Arrays | 5 |
 | 14 Oct 2026 | Arrays — Extra Questions | 2 |
+| 14 Oct 2026 | Searching and Sorting | 1 |
 | 14 Oct 2026 | Strings | 2 |
 | 14 Oct 2026 | Stack and Queue | 1 |
 
@@ -79,7 +80,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 
 | Question | Description | 1st Revision | 2nd Revision | 3rd Revision |
 | --- | --- | :---: | :---: | :---: |
-| _No revisions logged yet_ | — | — | — | — |
+| Binary Search (LeetCode 704) | Sorted array; check middle, discard the half that can't hold the target, halve each step | ✅ 14 Oct 2026 | — | — |
 
 ---
 
