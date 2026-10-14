@@ -38,6 +38,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | 12 Oct 2026 | Two Pointers & Sliding Window | 2 |
 | 14 Oct 2026 | Linked List | 1 |
 | 14 Oct 2026 | Two Pointers & Sliding Window | 1 |
+| 14 Oct 2026 | Arrays | 1 |
 
 ---
 
@@ -55,7 +56,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 
 | Question | Description | 1st Revision | 2nd Revision | 3rd Revision |
 | --- | --- | :---: | :---: | :---: |
-| _No revisions logged yet_ | — | — | — | — |
+| Reverse String (LeetCode 344) | Two-pointer in-place swap; swap first↔last moving inward until the middle | ✅ 14 Oct 2026 | — | — |
 
 ---
 
