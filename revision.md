@@ -40,6 +40,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | 14 Oct 2026 | Two Pointers & Sliding Window | 1 |
 | 14 Oct 2026 | Arrays | 1 |
 | 14 Oct 2026 | Strings | 1 |
+| 14 Oct 2026 | Stack and Queue | 1 |
 
 ---
 
@@ -97,7 +98,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 
 | Question | Description | 1st Revision | 2nd Revision | 3rd Revision |
 | --- | --- | :---: | :---: | :---: |
-| _No revisions logged yet_ | — | — | — | — |
+| Valid Parentheses (LeetCode 20) | Push opening brackets to a stack; on a closing bracket pop and check it matches, stack must end empty | ✅ 14 Oct 2026 | — | — |
 
 ---
 
