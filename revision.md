@@ -43,6 +43,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | 14 Oct 2026 | Searching and Sorting | 1 |
 | 14 Oct 2026 | Strings | 2 |
 | 14 Oct 2026 | Stack and Queue | 1 |
+| 16 Oct 2026 | Linked List | 1 |
 
 ---
 
@@ -89,6 +90,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | Question | Description | 1st Revision | 2nd Revision | 3rd Revision |
 | --- | --- | :---: | :---: | :---: |
 | Reverse a Linked List (LeetCode 206) | Iterative 3-pointer reversal; flip each `next` pointer, return `prev` as new head | ✅ 14 Oct 2026 | — | — |
+| Palindrome Linked List (LeetCode 234) | Find the middle with slow/fast pointers, reverse the second half, compare both halves node by node | ✅ 16 Oct 2026 | — | — |
 
 ---
 
