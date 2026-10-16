@@ -45,6 +45,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | 14 Oct 2026 | Stack and Queue | 1 |
 | 16 Oct 2026 | Linked List | 1 |
 | 16 Oct 2026 | Strings | 1 |
+| 16 Oct 2026 | Binary Search Algorithm | 1 |
 
 ---
 
@@ -117,7 +118,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 
 | Question | Description | 1st Revision | 2nd Revision | 3rd Revision |
 | --- | --- | :---: | :---: | :---: |
-| _No revisions logged yet_ | — | — | — | — |
+| First Bad Version (LeetCode 278) | Binary search on versions; move left/right based on the API, converge on the first bad one | ✅ 16 Oct 2026 | — | — |
 
 ---
 
