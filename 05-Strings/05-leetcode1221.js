@@ -4,6 +4,10 @@
  */
 
 //! Approach 1 : Using Two Variables
+/** 
+ *  In this Problem we have to find the number of balanced strings in the given string. 
+ *  A balanced string is a string that has an equal number of 'R' and 'L' characters.
+ */
 
 var balancedStringSplit = function(s) {
     let balanceCount = 0;
