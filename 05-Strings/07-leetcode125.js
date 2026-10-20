@@ -5,6 +5,13 @@
  * @return {boolean}
  */
 
+/** 
+ * This Problem is about checking whether the given string is a palindrome or not.
+ * A palindrome is a string that reads the same backward as forward.
+ * We have to ignore all non-alphanumeric characters and also ignore cases.
+ */
+
+
 // Way 1 : 
 
 var isPalindrome = function(s) {
