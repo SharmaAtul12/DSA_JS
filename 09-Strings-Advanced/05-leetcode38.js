@@ -2,6 +2,13 @@
  * @param {number} n
  * @return {string}
  */
+
+/**
+ * This is the Problem , In which we have to find the nth term of the count and say sequence.
+ * So we have used the Run Length Encoding Algorithm to solve this problem in a single pass and without using any extra space.
+ * In this algorithm we have used two pointers, one for the current element and one for the next element.
+ */
+
 var countAndSay = function(n) {
     let curr = "1"
     
