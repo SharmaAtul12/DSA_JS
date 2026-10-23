@@ -11,6 +11,13 @@
  * @param {number} val
  * @return {TreeNode}
  */
+
+/** 
+ * In this Problem we are given a Binary Search Tree and a value. 
+ * We have to insert the value into the BST.
+ * We have to return the root node of the tree after insertion.
+ */
+
 //! My Way ----------------------------------------> Top Down Approach (We are not returning the root node of the tree after insertion)
 
 var insertIntoBST = function (root, val) {
