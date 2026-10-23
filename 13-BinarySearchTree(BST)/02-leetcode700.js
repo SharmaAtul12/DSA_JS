@@ -11,6 +11,13 @@
  * @param {number} val
  * @return {TreeNode}
  */
+
+/**
+ * In this Problem we are given a Binary Search Tree and a value. 
+ * We have to find the node in the BST which has the same value as the given value. 
+ * If we find the node then we have to return that node otherwise we have to return null.
+ */
+
 //! Iterative Approach ->
 
 var searchBST = function (root, val) {
