@@ -2,6 +2,12 @@
  * @param {number[]} nums
  * @return {number[]}
  */
+
+/**
+ * In this problem, we are given an array of integers and we need to find all the missing elements in the range [min, max] where min and max are the minimum and maximum elements in the array.
+ * We will use a Set to store the elements of the array and then iterate through the range [min, max] to find the missing elements.
+ */
+
 var findMissingElements = function(nums) {
     let set = new Set();
     let arr = [];
