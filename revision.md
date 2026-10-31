@@ -47,6 +47,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | 16 Oct 2026 | Strings | 1 |
 | 16 Oct 2026 | Binary Search Algorithm | 1 |
 | 28 Oct 2026 | Arrays | 1 |
+| 31 Oct 2026 | Arrays | 1 |
 
 ---
 
@@ -65,7 +66,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | Question | Description | 1st Revision | 2nd Revision | 3rd Revision |
 | --- | --- | :---: | :---: | :---: |
 | Reverse String (LeetCode 344) | Two-pointer in-place swap; swap first↔last moving inward until the middle | ✅ 14 Oct 2026 | — | — |
-| Remove Duplicates from Sorted Array (LeetCode 26) | Slow pointer marks last unique; place each larger value right after it, return count | ✅ 14 Oct 2026 | — | — |
+| Remove Duplicates from Sorted Array (LeetCode 26) | Slow pointer marks last unique; place each larger value right after it, return count | ✅ 14 Oct 2026 | ✅ 31 Oct 2026 | — |
 | Missing Number (LeetCode 268) | Expected sum `n(n+1)/2` minus actual sum gives the missing number | ✅ 14 Oct 2026 | — | — |
 | Move Zeroes (LeetCode 283) | Two pointers; swap each non-zero into the next slot, zeroes bubble to the end keeping order | ✅ 14 Oct 2026 | ✅ 28 Oct 2026 | — |
 | Best Time to Buy and Sell Stock (LeetCode 121) | Track the lowest price so far; max profit is best `price - min` seen in one pass | ✅ 14 Oct 2026 | — | — |
