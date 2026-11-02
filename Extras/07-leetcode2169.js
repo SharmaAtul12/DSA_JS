@@ -4,6 +4,14 @@
  * @return {number}
  */
 
+
+/**
+ * This Problem is about counting the number of operations required to reduce either of the two numbers to zero by repeatedly 
+ * subtracting the smaller number from the larger one.
+ * And we will use a while loop to keep subtracting the smaller number from the larger one until one of them becomes zero.
+ */
+
+
 /**
  * Approach :-> 
  * Keep subtracting the smaller number from the larger number until one of them becomes 0.
