@@ -3,6 +3,14 @@
  * @param {number} k
  * @return {number}
  */
+
+/**
+ * In this problem, we are given an array of integers and a number k. We need to find the first index i such that the difference 
+ * between the maximum value in the prefix (from index 0 to i) and the minimum value in the suffix (from index i to n-1) is 
+ * less than or equal to k.
+ */
+
+
 var firstStableIndex = function (nums, k) {
     let n = nums.length;
 
