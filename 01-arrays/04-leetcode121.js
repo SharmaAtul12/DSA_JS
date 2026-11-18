@@ -29,7 +29,6 @@ var maxProfit = function (prices) {
  * @return {number}
  */
 var maxProfit = function (prices) {
-    const profits = [];
     let min = prices[0];
     let maxProfit = 0;
 
