@@ -49,6 +49,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | 28 Oct 2026 | Arrays | 1 |
 | 31 Oct 2026 | Arrays | 1 |
 | 18 Nov 2026 | Arrays | 1 |
+| 19 Nov 2026 | Arrays | 1 |
 
 ---
 
@@ -71,6 +72,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | Missing Number (LeetCode 268) | Expected sum `n(n+1)/2` minus actual sum gives the missing number | ✅ 14 Oct 2026 | — | — |
 | Move Zeroes (LeetCode 283) | Two pointers; swap each non-zero into the next slot, zeroes bubble to the end keeping order | ✅ 14 Oct 2026 | ✅ 28 Oct 2026 | — |
 | Best Time to Buy and Sell Stock (LeetCode 121) | Track the lowest price so far; max profit is best `price - min` seen in one pass | ✅ 14 Oct 2026 | ✅ 18 Nov 2026 | — |
+| Merge Sorted Array (LeetCode 88) | Merge from the end with two pointers to modify `nums1` in-place using O(1) extra space | ✅ 19 Nov 2026 | — | — |
 
 ---
 
