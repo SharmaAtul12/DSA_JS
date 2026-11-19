@@ -1,4 +1,4 @@
-// Approach 1 - time complexity O(m+n) and space complexity O(m)
+//! Approach 1 - time complexity O(m+n) and space complexity O(m)
 
 /**
  * @param {number[]} nums1
@@ -23,7 +23,7 @@ var merge = function(nums1, m, nums2, n) {
     }
 };
 
-// Approach 2 - time complexity O(m+n) and space complexity O(1)
+//! Approach 2 - time complexity O(m+n) and space complexity O(1)
 
 /**
  * @param {number[]} nums1
