@@ -50,7 +50,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | 31 Oct 2026 | Arrays | 1 |
 | 18 Nov 2026 | Arrays | 1 |
 | 19 Nov 2026 | Arrays | 1 |
-| 20 Nov 2026 | Recursion | 7 |
+| 20 Nov 2026 | Recursion | 8 |
 
 ---
 
@@ -88,6 +88,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | Sum of Odd Array Elements | Check each element for oddness; add it when odd and recurse through the remaining elements, otherwise contribute `0` | ✅ 20 Nov 2026 | — | — |
 | Factorial of `n` | Base case `1! = 1`; return `n * factorial(n - 1)` to multiply all positive integers down to `1` | ✅ 20 Nov 2026 | — | — |
 | Power of Two (LeetCode 231) | Base case `n === 1`; reject values below `1` or odd values, then recursively divide even values by `2` | ✅ 20 Nov 2026 | — | — |
+| Fibonacci Number (LeetCode 509) | Base case `fib(0) = 0` and `fib(1) = 1`; return `fib(n - 1) + fib(n - 2)` for larger values | ✅ 20 Nov 2026 | — | — |
 
 ---
 
