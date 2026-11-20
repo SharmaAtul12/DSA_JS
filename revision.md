@@ -50,6 +50,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | 31 Oct 2026 | Arrays | 1 |
 | 18 Nov 2026 | Arrays | 1 |
 | 19 Nov 2026 | Arrays | 1 |
+| 20 Nov 2026 | Recursion | 6 |
 
 ---
 
@@ -80,7 +81,12 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 
 | Question | Description | 1st Revision | 2nd Revision | 3rd Revision |
 | --- | --- | :---: | :---: | :---: |
-| _No revisions logged yet_ | — | — | — | — |
+| Basic Recursion: Print `n` to `1` | Base case when `num < 1`; print the current number, decrement it, and recurse until the stopping condition | ✅ 20 Nov 2026 | — | — |
+| Print `1` to `n` Using Recursion | Stop when the counter exceeds `n`; print the counter and recurse with the next value, using either explicit or outer-scope state | ✅ 20 Nov 2026 | — | — |
+| Sum of `n` Numbers | Base case `sum(0) = 0`; return `n + sum(n - 1)` to accumulate all values from `n` down to `1` | ✅ 20 Nov 2026 | — | — |
+| Sum of Array Elements | Use the index as the recursive state; base case at index `0`, then add `arr[index]` to the sum of the preceding elements | ✅ 20 Nov 2026 | — | — |
+| Sum of Odd Array Elements | Check each element for oddness; add it when odd and recurse through the remaining elements, otherwise contribute `0` | ✅ 20 Nov 2026 | — | — |
+| Factorial of `n` | Base case `1! = 1`; return `n * factorial(n - 1)` to multiply all positive integers down to `1` | ✅ 20 Nov 2026 | — | — |
 
 ---
 
