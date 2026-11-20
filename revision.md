@@ -50,7 +50,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | 31 Oct 2026 | Arrays | 1 |
 | 18 Nov 2026 | Arrays | 1 |
 | 19 Nov 2026 | Arrays | 1 |
-| 20 Nov 2026 | Recursion | 6 |
+| 20 Nov 2026 | Recursion | 7 |
 
 ---
 
@@ -87,6 +87,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | Sum of Array Elements | Use the index as the recursive state; base case at index `0`, then add `arr[index]` to the sum of the preceding elements | ✅ 20 Nov 2026 | — | — |
 | Sum of Odd Array Elements | Check each element for oddness; add it when odd and recurse through the remaining elements, otherwise contribute `0` | ✅ 20 Nov 2026 | — | — |
 | Factorial of `n` | Base case `1! = 1`; return `n * factorial(n - 1)` to multiply all positive integers down to `1` | ✅ 20 Nov 2026 | — | — |
+| Power of Two (LeetCode 231) | Base case `n === 1`; reject values below `1` or odd values, then recursively divide even values by `2` | ✅ 20 Nov 2026 | — | — |
 
 ---
 
