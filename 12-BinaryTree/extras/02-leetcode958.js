@@ -21,6 +21,7 @@ var isCompleteTree = function(root) {
             seenNull = true;
         }
         else {
+          //* If we have seen a null node and the current node is not null, the tree is not complete
             if(seenNull === true) {
                 return false
             }
@@ -29,5 +30,6 @@ var isCompleteTree = function(root) {
         }
     }
 
+    //* And agr we have traversed the entire tree and not found any violations of the complete tree property, we can conclude that the tree is complete
     return true;
 };
