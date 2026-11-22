@@ -51,7 +51,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | 18 Nov 2026 | Arrays | 1 |
 | 19 Nov 2026 | Arrays | 1 |
 | 20 Nov 2026 | Recursion | 8 |
-| 22 Nov 2026 | Searching and Sorting | 2 |
+| 22 Nov 2026 | Searching and Sorting | 3 |
 
 ---
 
@@ -99,6 +99,7 @@ A revision means I **re-took the question** — read it fresh and solved it agai
 | --- | --- | :---: | :---: | :---: |
 | Linear Search | Scan each element from left to right; return the matching index immediately or `-1` after checking every element | ✅ 22 Nov 2026 | — | — |
 | Binary Search (LeetCode 704) | Sorted array; check the middle, discard the half that cannot contain the target, and halve the search range each step | ✅ 14 Oct 2026 | ✅ 22 Nov 2026 | — |
+| Merge Sort (LeetCode 912) | Recursively split the array at the middle, then merge the sorted halves with two pointers in ascending order | ✅ 22 Nov 2026 | — | — |
 
 ---
 
